@@ -1,5 +1,8 @@
 package spring.InversionOfControl;
 
+/**
+ * This class does the same as the "HelloSpringApp" class, but without the Spring Framework.
+ */
 public class MyApp {
 
 	public static void main(String[] args) {

@@ -1,5 +1,6 @@
-package spring.InversionOfControl;
+package spring.DependencyInjectionConstructor;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 
 /**
  * This class shows the way of doing the stuff in Spring Framework.
@@ -14,10 +15,11 @@ public class HelloSpringApp {
 				new ClassPathXmlApplicationContext("applicationContext.xml");
 				
 		// retrieve bean from spring container
-		Coach theCoach = context.getBean("myCoach", Coach.class);
+		Coach theCoach = context.getBean("myCoachFortuneConstructor", Coach.class);
 		
 		// call methods on the bean
 		System.out.println(theCoach.getDailyWorkout());
+		System.out.println(theCoach.getDailyFortune());
 		
 		// close the context
 		context.close();

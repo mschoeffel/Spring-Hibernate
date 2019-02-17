@@ -11,15 +11,34 @@
     <!-- Define your beans here -->
     
     <!-- define the dependency -->
+	<!-- Inversion of Control -->
  	<bean id="myCoach"
  		class="spring.InversionOfControl.BaseballCoach">
  	</bean>
 
-    <!--
-    <bean id="myCoach"
-        class="com.luv2code.springdemo.BaseballCoach">         
-    </bean>
-    -->
+	<!-- Dependency Injection Constructor -->
+	<bean id="myFortuneServiceConstructor"
+		  class="spring.DependencyInjectionConstructor.HappyFortuneService">
+	</bean>
+
+	<bean id="myCoachFortuneConstructor"
+		  class="spring.DependencyInjectionConstructor.BaseballCoach">
+
+		<!-- constructor injection -->
+		<constructor-arg ref="myFortuneServiceConstructor" />
+	</bean>
+
+	<!-- Dependency Injection Setter -->
+	<bean id="myFortuneServiceSetter"
+		  class="spring.DependencyInjectionSetter.HappyFortuneService">
+	</bean>
+
+	<bean id="myCoachFortuneSetter"
+		  class="spring.DependencyInjectionSetter.BaseballCoach">
+
+		<!-- setter injection -->
+		<property name="fortuneService" ref="myFortuneServiceSetter"/>
+	</bean>
 
 </beans>
 
