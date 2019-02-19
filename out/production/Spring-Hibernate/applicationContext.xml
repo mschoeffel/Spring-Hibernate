@@ -40,6 +40,22 @@
 		<property name="fortuneService" ref="myFortuneServiceSetter"/>
 	</bean>
 
+	<!-- Dependency Injection Advanced Setter -->
+	<bean id="myFortuneServiceAdvancedSetter"
+		  class="spring.DependencyInjectionAdvancedSetter.HappyFortuneService">
+	</bean>
+
+	<bean id="myCoachFortuneAdvancedSetter"
+		  class="spring.DependencyInjectionAdvancedSetter.BaseballCoach">
+
+		<!-- setter injection -->
+		<property name="fortuneService" ref="myFortuneServiceAdvancedSetter"/>
+
+		<!-- advanced setter -->
+		<property name="email" value="tesmail@testdomain.com"/>
+		<property name="team" value="My awesome Team"/>
+	</bean>
+
 </beans>
 
 
