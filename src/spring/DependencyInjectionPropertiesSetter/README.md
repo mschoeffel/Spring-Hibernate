@@ -2,7 +2,7 @@
 
 ---
 
-## Dependency Injection Advanced Setter
+## Dependency Injection Properties Setter
 
 The MyApp is pure static and the class needs to be modified to get another object or other dependency generated.
 
