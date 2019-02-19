@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c92a05df-67e8-4299-8b32-b3894a075115" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/spring/DependencyInjectionAdvancedSetter/BaseballCoach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/DependencyInjectionAdvancedSetter/Coach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/DependencyInjectionAdvancedSetter/FortuneServiceInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/DependencyInjectionAdvancedSetter/HappyFortuneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/DependencyInjectionAdvancedSetter/HelloSpringApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/DependencyInjectionAdvancedSetter/MyApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/DependencyInjectionAdvancedSetter/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/DependencyInjectionAdvancedSetter/TrackCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coachConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/DependencyInjectionPropertiesSetter/BaseballCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/DependencyInjectionPropertiesSetter/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/DependencyInjectionPropertiesSetter/FortuneServiceInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/DependencyInjectionPropertiesSetter/HappyFortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/DependencyInjectionPropertiesSetter/HelloSpringApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/DependencyInjectionPropertiesSetter/MyApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/DependencyInjectionPropertiesSetter/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/DependencyInjectionPropertiesSetter/TrackCoach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/applicationContext.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,11 +25,67 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="80" lean-forward="true" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
+              <folding>
+                <element signature="e#2527#2547#0" expanded="true" />
+                <element signature="e#2580#2599#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/coachConfig.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring/DependencyInjectionPropertiesSetter/HappyFortuneService.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring/DependencyInjectionPropertiesSetter/BaseballCoach.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring/DependencyInjectionPropertiesSetter/HelloSpringApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="17" column="72" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring/DependencyInjectionPropertiesSetter/MyApp.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring/DependencyInjectionPropertiesSetter/TrackCoach.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring/DependencyInjectionPropertiesSetter/FortuneServiceInterface.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="207">
-                <caret line="9" selection-start-line="9" selection-end-line="9" />
+                <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
               </first_editor>
               <second_editor />
             </state>
@@ -35,95 +93,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/DependencyInjectionAdvancedSetter/MyApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="21" column="55" lean-forward="true" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="55" column="52" lean-forward="true" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/DependencyInjectionAdvancedSetter/HelloSpringApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="21" column="55" lean-forward="true" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/DependencyInjectionAdvancedSetter/FortuneServiceInterface.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/DependencyInjectionAdvancedSetter/Coach.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/DependencyInjectionAdvancedSetter/BaseballCoach.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
-              <folding>
-                <element signature="e#546#547#0" expanded="true" />
-                <element signature="e#562#563#0" expanded="true" />
-                <element signature="e#608#609#0" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
-                <element signature="e#657#658#0" expanded="true" />
-                <element signature="e#669#670#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#722#723#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/DependencyInjectionAdvancedSetter/HappyFortuneService.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/DependencyInjectionAdvancedSetter/TrackCoach.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-              <folding>
-                <element signature="e#472#473#0" expanded="true" />
-                <element signature="e#497#498#0" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#630#631#0" expanded="true" />
-                <element signature="e#649#650#0" expanded="true" />
-                <element signature="e#677#678#0" expanded="true" />
-                <element signature="e#695#696#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/spring/DependencyInjectionAdvancedSetter/README.md">
+        <entry file="file://$PROJECT_DIR$/src/spring/DependencyInjectionPropertiesSetter/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="276">
-                <caret line="12" column="253" selection-start-line="12" selection-start-column="253" selection-end-line="12" selection-end-column="253" />
+                <caret line="12" column="288" selection-start-line="12" selection-start-column="288" selection-end-line="12" selection-end-column="288" />
               </first_editor>
               <second_editor />
             </state>
@@ -137,6 +111,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Properties" />
       </list>
     </option>
   </component>
@@ -169,18 +144,22 @@
         <option value="$PROJECT_DIR$/src/spring/DependencyInjectionConstructor/HelloSpringApp.java" />
         <option value="$PROJECT_DIR$/src/spring/DependencyInjectionConstructor/README.md" />
         <option value="$PROJECT_DIR$/src/spring/DependencyInjectionSetter/README.md" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/spring/DependencyInjectionAdvancedSetter/BaseballCoach.java" />
         <option value="$PROJECT_DIR$/src/spring/DependencyInjectionAdvancedSetter/TrackCoach.java" />
         <option value="$PROJECT_DIR$/src/spring/DependencyInjectionAdvancedSetter/Coach.java" />
         <option value="$PROJECT_DIR$/src/spring/DependencyInjectionAdvancedSetter/HelloSpringApp.java" />
         <option value="$PROJECT_DIR$/src/spring/DependencyInjectionAdvancedSetter/MyApp.java" />
         <option value="$PROJECT_DIR$/src/spring/DependencyInjectionAdvancedSetter/README.md" />
+        <option value="$PROJECT_DIR$/src/spring/coachConfig.properties" />
+        <option value="$PROJECT_DIR$/src/spring/DependencyInjectionPropertiesSetter/HelloSpringApp.java" />
+        <option value="$PROJECT_DIR$/src/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/coachConfig.properties" />
+        <option value="$PROJECT_DIR$/src/spring/DependencyInjectionPropertiesSetter/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="305" />
     <option name="y" value="91" />
     <option name="width" value="1400" />
@@ -218,7 +197,7 @@
               <item name="Spring-Hibernate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="DependencyInjectionAdvancedSetter" type="462c0819:PsiDirectoryNode" />
+              <item name="DependencyInjectionPropertiesSetter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -230,7 +209,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550570153160" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550571398192" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -239,17 +218,17 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Shared\Spring-Hibernate\out\production\Spring-Hibernate" />
       <recent name="D:\Shared\Spring-Hibernate\src" />
+      <recent name="D:\Shared\Spring-Hibernate\out\production\Spring-Hibernate" />
       <recent name="D:\Shared\Spring-Hibernate" />
       <recent name="D:\Shared\Spring-Hibernate\src\resources" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Shared\Spring-Hibernate\src\spring\DependencyInjectionPropertiesSetter" />
       <recent name="D:\Shared\Spring-Hibernate\src\spring\DependencyInjectionAdvancedSetter" />
       <recent name="D:\Shared\Spring-Hibernate\src\spring\DependencyInjectionSetter" />
       <recent name="D:\Shared\Spring-Hibernate\src\spring\DependencyInjection" />
       <recent name="D:\Shared\Spring-Hibernate\src\spring\InversionOfControl" />
-      <recent name="D:\Shared\Spring-Hibernate\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -264,7 +243,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HelloSpringApp (3)">
+  <component name="RunManager" selected="Application.HelloSpringApp (4)">
     <configuration name="HelloSpringApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="spring.DependencyInjectionSetter.HelloSpringApp" />
       <module name="Spring-Hibernate" />
@@ -304,6 +283,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HelloSpringApp (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spring.DependencyInjectionPropertiesSetter.HelloSpringApp" />
+      <module name="Spring-Hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spring.DependencyInjectionPropertiesSetter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloSpringApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="spring.InversionOfControl.HelloSpringApp" />
       <module name="Spring-Hibernate" />
@@ -332,11 +324,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloSpringApp (4)" />
         <item itemvalue="Application.HelloSpringApp (3)" />
         <item itemvalue="Application.HelloSpringApp (1)" />
         <item itemvalue="Application.HelloSpringApp (2)" />
         <item itemvalue="Application.HelloSpringApp (1)" />
-        <item itemvalue="Application.HelloSpringApp" />
       </list>
     </recent_temporary>
   </component>
@@ -353,16 +345,15 @@
       <workItem from="1550000434389" duration="1993000" />
       <workItem from="1550079888516" duration="1123000" />
       <workItem from="1550425708388" duration="4387000" />
-      <workItem from="1550569487742" duration="629000" />
+      <workItem from="1550569487742" duration="2022000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8132000" />
+    <option name="totallyTimeSpent" value="9525000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -592,16 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="207">
-            <caret line="9" selection-start-line="9" selection-end-line="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/DependencyInjectionAdvancedSetter/FortuneServiceInterface.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -649,13 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="55" column="52" lean-forward="true" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/DependencyInjectionAdvancedSetter/MyApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -673,8 +647,71 @@
     <entry file="file://$PROJECT_DIR$/src/spring/DependencyInjectionAdvancedSetter/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
+          <first_editor relative-caret-position="92">
+            <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/DependencyInjectionPropertiesSetter/Coach.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/DependencyInjectionPropertiesSetter/HappyFortuneService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/DependencyInjectionPropertiesSetter/BaseballCoach.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/DependencyInjectionPropertiesSetter/MyApp.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/DependencyInjectionPropertiesSetter/TrackCoach.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/DependencyInjectionPropertiesSetter/FortuneServiceInterface.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="80" lean-forward="true" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
+          <folding>
+            <element signature="e#2527#2547#0" expanded="true" />
+            <element signature="e#2580#2599#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/DependencyInjectionPropertiesSetter/HelloSpringApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="17" column="72" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/coachConfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/DependencyInjectionPropertiesSetter/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
           <first_editor relative-caret-position="276">
-            <caret line="12" column="253" selection-start-line="12" selection-start-column="253" selection-end-line="12" selection-end-column="253" />
+            <caret line="12" column="288" selection-start-line="12" selection-start-column="288" selection-end-line="12" selection-end-column="288" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="207">
+            <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           </first_editor>
           <second_editor />
         </state>

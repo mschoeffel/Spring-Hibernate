@@ -7,6 +7,8 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
+	<!-- load properties file for the Dependency Injection Properties Setter -->
+	<context:property-placeholder location="classpath:coachConfig.properties"/>
 	
     <!-- Define your beans here -->
     
@@ -54,6 +56,22 @@
 		<!-- advanced setter -->
 		<property name="email" value="tesmail@testdomain.com"/>
 		<property name="team" value="My awesome Team"/>
+	</bean>
+
+	<!-- Dependency Injection Properties Setter -->
+	<bean id="myFortuneServicePropertiesSetter"
+		  class="spring.DependencyInjectionPropertiesSetter.HappyFortuneService">
+	</bean>
+
+	<bean id="myCoachFortunePropertiesSetter"
+		  class="spring.DependencyInjectionPropertiesSetter.BaseballCoach">
+
+		<!-- setter injection -->
+		<property name="fortuneService" ref="myFortuneServicePropertiesSetter"/>
+
+		<!-- properties setter -->
+		<property name="email" value="${coachProp.email}"/>
+		<property name="team" value="${coachProp.team}"/>
 	</bean>
 
 </beans>
