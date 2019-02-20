@@ -12,3 +12,4 @@ This is a repository where I go through all the basics of the Java frameworks Sp
 6. [Bean Scopes](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/BeanScopes)
 7. [Bean Hooks / Bean Lifecycle](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/BeanHooks)
 8. [Annotation Explicit Inversion of Control](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/AnnotationExplicitIoC)
+8. [Annotation Default Inversion of Control](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/AnnotationDefaultIoC)

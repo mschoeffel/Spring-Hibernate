@@ -10,6 +10,9 @@
     <!-- enable component scanning annotation explicit IoC  -->
     <context:component-scan base-package="spring.AnnotationExplicitIoC"/>
 
+    <!-- enable component scanning annotation default IoC -->
+    <context:component-scan base-package="spring.AnnotationDefaultIoC"/>
+
 </beans>
 
 
