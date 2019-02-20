@@ -1,5 +1,6 @@
-package spring.DependencyInjectionConstructor;
+package spring.AnnotationConstructorDI;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component("myCoachConstructor")
@@ -7,6 +8,7 @@ public class TrackCoach implements Coach {
 
 	private FortuneServiceInterface fortuneService;
 
+	@Autowired
 	public TrackCoach(FortuneServiceInterface fortuneService){
 		this.fortuneService = fortuneService;
 	}

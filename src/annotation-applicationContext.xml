@@ -13,6 +13,9 @@
     <!-- enable component scanning annotation default IoC -->
     <context:component-scan base-package="spring.AnnotationDefaultIoC"/>
 
+    <!-- enable component scanning annotation constructor DI -->
+    <context:component-scan base-package="spring.AnnotationConstructorDI"/>
+
 </beans>
 
 
