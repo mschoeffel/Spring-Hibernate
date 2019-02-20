@@ -2,23 +2,15 @@
 
 ---
 
-## Bean Scopes
+## Bean Hooks / Bean Lifecycle
 
-Bean scopes describe how often an object can be created and instantiated.
+The lifecycle of a bean can be modified by adding two attributes: "init-method" and "destroy-method" to the bean config in the beanHooks-applicationContext.xml.
 
-By default if you don't add a scope attribute to the bean it's Singleton. So every instance of this bean refers to the exact same object.
+The init-method attribute defines what method to call when the bean gets instantiated .
+The destroy-method attribute defines what method to call before the bean gets deleted.
 
-You can add one of the following scopes to modify this behaviour:
-
-|Scope|Description|
-|---|---|
-| singleton (default) | Create a single shared instance of the bean (default) |
-| prototype | Creates a new bean instance for each container request |
-| request | Scoped to an HTTP web request. Only used for web apps. |
-| session | Scoped to an HTTP web session. Only used for web apps. |
-| global-session| Scoped to a global HTTP web session. Only used for web apps. |
-
+Caution: with prototype beans the delete-method won't be called!
 
 ---
 
-In this example there are two different beans instantiated. Each two times and compared. One of them got the scope=prototype the other stays default.
+In this example the bean outputs "Object ini successful" after it's instantiated and "Object is closed successfully" before the bean gets deleted.
