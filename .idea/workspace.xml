@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c92a05df-67e8-4299-8b32-b3894a075115" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/spring/AnnotationSetterDI/BaseballCoach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/AnnotationSetterDI/Coach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/AnnotationSetterDI/FortuneServiceInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/AnnotationSetterDI/HappyFortuneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/AnnotationSetterDI/HelloSpringApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/AnnotationSetterDI/MyApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/AnnotationSetterDI/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/AnnotationSetterDI/TrackCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/AnnotationFieldDI/BaseballCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/AnnotationFieldDI/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/AnnotationFieldDI/FortuneServiceInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/AnnotationFieldDI/HappyFortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/AnnotationFieldDI/HelloSpringApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/AnnotationFieldDI/MyApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/AnnotationFieldDI/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/AnnotationFieldDI/TrackCoach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring-Hibernate/annotation-applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring-Hibernate/annotation-applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/annotation-applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/annotation-applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spring/AnnotationSetterDI/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/AnnotationSetterDI/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,10 +26,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring/AnnotationFieldDI/HappyFortuneService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring/AnnotationFieldDI/MyApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/annotation-applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" column="59" lean-forward="true" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+            <state relative-caret-position="460">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -35,50 +56,9 @@
         <entry file="file://$PROJECT_DIR$/src/spring/AnnotationSetterDI/MyApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/AnnotationSetterDI/TrackCoach.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-              <folding>
-                <element signature="e#539#540#0" expanded="true" />
-                <element signature="e#582#583#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/AnnotationSetterDI/Coach.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/AnnotationSetterDI/HappyFortuneService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/AnnotationSetterDI/BaseballCoach.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/AnnotationSetterDI/FortuneServiceInterface.java">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -90,12 +70,42 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/spring/AnnotationSetterDI/README.md">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring/AnnotationFieldDI/TrackCoach.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring/AnnotationFieldDI/HelloSpringApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="92">
-                <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+              <first_editor relative-caret-position="391">
+                <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/spring/AnnotationFieldDI/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="184">
+                <caret line="8" column="499" selection-start-line="8" selection-start-column="499" selection-end-line="8" selection-end-column="499" />
               </first_editor>
               <second_editor />
             </state>
@@ -103,11 +113,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/AnnotationDefaultIoC/README.md">
+        <entry file="file://$PROJECT_DIR$/src/spring/AnnotationSetterDI/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="138">
-                <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="273" />
+              <first_editor relative-caret-position="184">
+                <caret line="8" column="516" selection-start-line="8" selection-start-column="516" selection-end-line="8" selection-end-column="516" />
               </first_editor>
               <second_editor />
             </state>
@@ -132,11 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/spring/DependencyInjection/README.md" />
-        <option value="$PROJECT_DIR$/src/spring/DependencyInjectionSetter/Coach.java" />
-        <option value="$PROJECT_DIR$/src/spring/DependencyInjectionSetter/TrackCoach.java" />
-        <option value="$PROJECT_DIR$/src/spring/DependencyInjectionSetter/BaseballCoach.java" />
-        <option value="$PROJECT_DIR$/src/spring/DependencyInjectionSetter/MyApp.java" />
         <option value="$PROJECT_DIR$/src/spring/DependencyInjectionConstructor/MyApp.java" />
         <option value="$PROJECT_DIR$/src/spring/DependencyInjectionSetter/HelloSpringApp.java" />
         <option value="$PROJECT_DIR$/src/spring/DependencyInjectionConstructor/HelloSpringApp.java" />
@@ -176,13 +181,18 @@
         <option value="$PROJECT_DIR$/src/spring/AnnotationConstructorDI/HappyFortuneService.java" />
         <option value="$PROJECT_DIR$/src/spring/AnnotationConstructorDI/TrackCoach.java" />
         <option value="$PROJECT_DIR$/src/spring/AnnotationConstructorDI/README.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/spring/AnnotationSetterDI/TrackCoach.java" />
         <option value="$PROJECT_DIR$/src/spring/AnnotationSetterDI/HappyFortuneService.java" />
         <option value="$PROJECT_DIR$/src/spring/AnnotationSetterDI/HelloSpringApp.java" />
+        <option value="$PROJECT_DIR$/src/spring/AnnotationFieldDI/HelloSpringApp.java" />
+        <option value="$PROJECT_DIR$/src/spring/AnnotationFieldDI/HappyFortuneService.java" />
+        <option value="$PROJECT_DIR$/src/spring/AnnotationFieldDI/TrackCoach.java" />
         <option value="$PROJECT_DIR$/src/annotation-applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/spring/AnnotationSetterDI/MyApp.java" />
+        <option value="$PROJECT_DIR$/src/spring/AnnotationFieldDI/MyApp.java" />
+        <option value="$PROJECT_DIR$/src/spring/AnnotationFieldDI/README.md" />
         <option value="$PROJECT_DIR$/src/spring/AnnotationSetterDI/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -222,7 +232,7 @@
               <item name="Spring-Hibernate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="AnnotationSetterDI" type="462c0819:PsiDirectoryNode" />
+              <item name="AnnotationFieldDI" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -235,7 +245,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550767590793" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550768151722" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -244,11 +254,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Shared\Spring-Hibernate\src\spring\AnnotationFieldDI" />
       <recent name="D:\Shared\Spring-Hibernate\src\spring\AnnotationSetterDI" />
       <recent name="D:\Shared\Spring-Hibernate\src\spring\AnnotationConstructorDI" />
       <recent name="D:\Shared\Spring-Hibernate\src\spring\AnnotationDefaultIoC" />
       <recent name="D:\Shared\Spring-Hibernate\src" />
-      <recent name="D:\Shared\Spring-Hibernate\src\spring\AnnotationExplicitIoC" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Shared\Spring-Hibernate\src" />
@@ -269,7 +279,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HelloSpringApp (3)">
+  <component name="RunManager" selected="Application.HelloSpringApp (4)">
     <configuration name="HelloSpringApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="spring.AnnotationDefaultIoC.HelloSpringApp" />
       <module name="Spring-Hibernate" />
@@ -309,12 +319,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloSpringApp (6)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spring.BeanHooks.HelloSpringApp" />
+    <configuration name="HelloSpringApp (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spring.AnnotationFieldDI.HelloSpringApp" />
       <module name="Spring-Hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spring.BeanHooks.*" />
+          <option name="PATTERN" value="spring.AnnotationFieldDI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -337,11 +347,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloSpringApp (4)" />
         <item itemvalue="Application.HelloSpringApp (3)" />
         <item itemvalue="Application.HelloSpringApp (2)" />
         <item itemvalue="Application.HelloSpringApp (1)" />
         <item itemvalue="Application.HelloSpringApp" />
-        <item itemvalue="Application.HelloSpringApp (6)" />
       </list>
     </recent_temporary>
   </component>
@@ -361,12 +371,12 @@
       <workItem from="1550569487742" duration="5074000" />
       <workItem from="1550582426534" duration="1867000" />
       <workItem from="1550681714677" duration="4575000" />
-      <workItem from="1550766870267" duration="653000" />
+      <workItem from="1550766870267" duration="1377000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19672000" />
+    <option name="totallyTimeSpent" value="20396000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -411,38 +421,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/spring/BeanScopes/FortuneServiceInterface.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/BeanScopes/HappyFortuneService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/BeanScopes/TrackCoach.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/BeanScopes/BaseballCoach.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/BeanHooks/FortuneServiceInterface.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/BeanHooks/HappyFortuneService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/BeanScopes/HelloSpringApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/BeanHooks/Coach.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/BeanHooks/BaseballCoach.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -669,16 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="345">
-            <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/AnnotationDefaultIoC/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -709,13 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/annotation-applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="59" lean-forward="true" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/AnnotationSetterDI/TrackCoach.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -727,10 +688,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/AnnotationSetterDI/MyApp.java">
+    <entry file="file://$PROJECT_DIR$/src/spring/AnnotationFieldDI/Coach.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/AnnotationFieldDI/FortuneServiceInterface.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/AnnotationFieldDI/BaseballCoach.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/AnnotationFieldDI/HappyFortuneService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        <state relative-caret-position="92">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/AnnotationFieldDI/TrackCoach.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/annotation-applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -741,11 +725,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/AnnotationSetterDI/MyApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/AnnotationFieldDI/MyApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/AnnotationFieldDI/HelloSpringApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/AnnotationSetterDI/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="92">
-            <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <first_editor relative-caret-position="184">
+            <caret line="8" column="516" selection-start-line="8" selection-start-column="516" selection-end-line="8" selection-end-column="516" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="391">
+            <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/AnnotationFieldDI/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="184">
+            <caret line="8" column="499" selection-start-line="8" selection-start-column="499" selection-end-line="8" selection-end-column="499" />
           </first_editor>
           <second_editor />
         </state>

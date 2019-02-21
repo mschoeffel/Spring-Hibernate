@@ -19,6 +19,9 @@
     <!-- enable component scanning annotation setter DI -->
     <context:component-scan base-package="spring.AnnotationSetterDI"/>
 
+    <!-- enable component scanning annotation field DI -->
+    <context:component-scan base-package="spring.AnnotationFieldDI"/>
+
 </beans>
 
 
