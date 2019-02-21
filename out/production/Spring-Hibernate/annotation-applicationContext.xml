@@ -16,6 +16,9 @@
     <!-- enable component scanning annotation constructor DI -->
     <context:component-scan base-package="spring.AnnotationConstructorDI"/>
 
+    <!-- enable component scanning annotation setter DI -->
+    <context:component-scan base-package="spring.AnnotationSetterDI"/>
+
 </beans>
 
 
