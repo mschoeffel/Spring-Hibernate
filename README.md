@@ -16,3 +16,4 @@ This is a repository where I go through all the basics of the Java frameworks Sp
 10. [Annotation Constructor Dependency Injection](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/AnnotationConstructorDI)
 11. [Annotation Setter / Method Dependency Injection](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/AnnotationSetterDI)
 12. [Annotation Field Dependency Injection](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/AnnotationFieldDI)
+12. [Annotation Qualifier Dependency Injection](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/AnnotationQualifierDI)

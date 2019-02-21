@@ -22,6 +22,9 @@
     <!-- enable component scanning annotation field DI -->
     <context:component-scan base-package="spring.AnnotationFieldDI"/>
 
+    <!-- enable component scanning annotation qualifier DI -->
+    <context:component-scan base-package="spring.AnnotationQualifierDI"/>
+
 </beans>
 
 
