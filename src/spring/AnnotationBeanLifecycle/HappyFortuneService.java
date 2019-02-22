@@ -1,10 +1,9 @@
-package spring.AnnotationBeanScope;
+package spring.AnnotationBeanLifecycle;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-@Component("FortuneServiceBeanScope")
-@Scope("singleton")
+@Component("FortuneServiceBeanHook")
 public class HappyFortuneService implements FortuneServiceInterface {
 
     @Override

@@ -1,11 +1,12 @@
-package spring.AnnotationBeanScope;
+package spring.AnnotationBeanLifecycle;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-@Component("myCoachBeanScope")
-@Scope("prototype")
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
+@Component("myCoachBeanHook")
 public class TrackCoach implements Coach {
 
 	@Autowired
@@ -13,6 +14,16 @@ public class TrackCoach implements Coach {
 
 
 	public TrackCoach(){
+	}
+
+	@PostConstruct
+	public void initMethod(){
+		System.out.println("Bean init");
+	}
+
+	@PreDestroy
+	public void closeMethod(){
+		System.out.println("Bean close");
 	}
 
 	@Override

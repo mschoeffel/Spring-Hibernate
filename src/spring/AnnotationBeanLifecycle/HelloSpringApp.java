@@ -1,4 +1,4 @@
-package spring.AnnotationBeanScope;
+package spring.AnnotationBeanLifecycle;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 
@@ -15,12 +15,11 @@ public class HelloSpringApp {
 				new ClassPathXmlApplicationContext("annotation-applicationContext.xml");
 				
 		// retrieve bean from spring container
-		Coach theCoach1 = context.getBean("myCoachBeanScope", Coach.class);
-		Coach theCoach2 = context.getBean("myCoachBeanScope", Coach.class);
+		Coach theCoach = context.getBean("myCoachBeanHook", Coach.class);
 		
 		// call methods on the bean
-		System.out.println(theCoach1 == theCoach2);
-		System.out.println(theCoach1.getFortuneService() == theCoach2.getFortuneService());
+		System.out.println(theCoach.getDailyWorkout());
+		System.out.println(theCoach.getDailyFortune());
 		
 		// close the context
 		context.close();

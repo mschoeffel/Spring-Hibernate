@@ -1,4 +1,4 @@
-package spring.AnnotationBeanScope;
+package spring.AnnotationBeanLifecycle;
 
 public interface FortuneServiceInterface {
 

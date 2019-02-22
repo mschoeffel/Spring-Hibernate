@@ -28,6 +28,9 @@
     <!-- enable component scanning annotation qualifier DI -->
     <context:component-scan base-package="spring.AnnotationBeanScope"/>
 
+    <!-- enable component scanning annotation qualifier DI -->
+    <context:component-scan base-package="spring.AnnotationBeanLifecycle"/>
+
 </beans>
 
 

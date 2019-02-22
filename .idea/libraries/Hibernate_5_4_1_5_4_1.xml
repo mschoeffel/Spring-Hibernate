@@ -20,6 +20,7 @@
       <root url="jar://$PROJECT_DIR$/lib/jaxb-runtime-2.3.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/byte-buddy-1.9.5.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/hibernate-core-5.4.1.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.annotation-api-1.2.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
