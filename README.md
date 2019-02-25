@@ -19,3 +19,4 @@ This is a repository where I go through all the basics of the Java frameworks Sp
 13. [Annotation Qualifier Dependency Injection](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/AnnotationQualifierDI)
 14. [Annotation Bean Scope](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/AnnotationBeanScope)
 15. [Annotation Bean Lifecycle / Hooks](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/AnnotationBeanLifecycle)
+15. [Spring Configuration Class](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/SpringConfigClass)
