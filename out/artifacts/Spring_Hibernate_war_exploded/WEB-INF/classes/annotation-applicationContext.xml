@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- enable component scanning annotation explicit IoC  -->
+    <context:component-scan base-package="spring.AnnotationExplicitIoC"/>
+
+    <!-- enable component scanning annotation default IoC -->
+    <context:component-scan base-package="spring.AnnotationDefaultIoC"/>
+
+    <!-- enable component scanning annotation constructor DI -->
+    <context:component-scan base-package="spring.AnnotationConstructorDI"/>
+
+    <!-- enable component scanning annotation setter DI -->
+    <context:component-scan base-package="spring.AnnotationSetterDI"/>
+
+    <!-- enable component scanning annotation field DI -->
+    <context:component-scan base-package="spring.AnnotationFieldDI"/>
+
+    <!-- enable component scanning annotation qualifier DI -->
+    <context:component-scan base-package="spring.AnnotationQualifierDI"/>
+
+    <!-- enable component scanning annotation qualifier DI -->
+    <context:component-scan base-package="spring.AnnotationBeanScope"/>
+
+    <!-- enable component scanning annotation qualifier DI -->
+    <context:component-scan base-package="spring.AnnotationBeanLifecycle"/>
+
+</beans>
+
+
+
+
+
