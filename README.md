@@ -22,4 +22,5 @@ This is a repository where I go through all the basics of the Java frameworks Sp
 16. [Spring Configuration Class](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/SpringConfigClass)
 17. [Annotation Bean Dependency Injection](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/AnnotationBeanDI)
 18. [Annotation Bean Properties Dependency Injection](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/AnnotationBeanPropertiesDI)
-19. [Spring MVC](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/MVC)
+19. [Spring MVC Initialization](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/MVC)
+20. [Spring MVC Process Form Data](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/MVC)
