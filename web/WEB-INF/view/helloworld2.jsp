@@ -11,6 +11,7 @@
     <title>Hello</title>
 </head>
 <body>
+<img src="${pageContext.request.contextPath}/resources/img/springlogo.png" /><br/>
 <p>${message}</p>
 </body>
 </html>
