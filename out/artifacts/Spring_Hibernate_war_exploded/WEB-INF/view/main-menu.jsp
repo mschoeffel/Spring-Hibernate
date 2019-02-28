@@ -8,11 +8,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>TEST TITLE</title>
+    <title>Spring MVC Demo Index</title>
 </head>
 <body>
 <h2>Index</h2>
-<a href="showForm">Process Form Data</a>
+<a href="showForm">Process Form Data</a><br/>
+<a href="showForm2">Process Form Data Advanced</a><br/>
 
 </body>
 </html>

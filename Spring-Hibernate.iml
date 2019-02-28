@@ -24,6 +24,13 @@
         <naming-strategy-map />
       </configuration>
     </facet>
+    <facet type="javaeeApplication" name="javaEEApplication">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="application.xml" url="file://$MODULE_DIR$/META-INF/application.xml" />
+        </descriptors>
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
@@ -41,5 +48,7 @@
     <orderEntry type="library" exported="" name="Spring Data JPA-1.3.3" level="project" />
     <orderEntry type="library" exported="" name="Hibernate 5.4.1-5.4.1" level="project" />
     <orderEntry type="library" exported="" name="Spring MVC-4.3.18.RELEASE" level="project" />
+    <orderEntry type="library" name="javax.servlet-api-4.0.0-javadoc" level="project" />
+    <orderEntry type="library" name="javax.servlet-api-4.0.0" level="project" />
   </component>
 </module>
