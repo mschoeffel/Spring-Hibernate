@@ -25,3 +25,4 @@ This is a repository where I go through all the basics of the Java frameworks Sp
 19. [Spring MVC Initialization](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/MVC)
 20. [Spring MVC Process Form Data](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/MVC)
 21. [Spring MVC Process Form Data Advanced](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/MVC)
+22. [Spring MVC Process Form Data with Annotation](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/MVC)

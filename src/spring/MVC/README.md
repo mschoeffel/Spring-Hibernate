@@ -60,4 +60,13 @@ and then used with the following examples:
 <img src="${pageContext.request.contextPath}/resources/images/spring-logo.png"/>
 ```
 
+### Read Form Data with MVC Advanced with Annotation
+Modified: HelloWorldController (added the two new methods for form 3)
+
+Added: helloworld-form3.jsp
+
+---
+This time we make use of the "RequestParam" annotation to get a parameter of the submitted form to the controller in this case we just added "@RequestParam("userName") String name" as Parameter to our method and inside of the method we can use the parameter name and it contains the "userName" of the submitted form.
+
+
 Server: Apache Tomcat.

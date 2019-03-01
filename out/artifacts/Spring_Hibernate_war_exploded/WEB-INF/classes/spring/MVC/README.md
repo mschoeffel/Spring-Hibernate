@@ -46,4 +46,18 @@ This time we added two parameter to the controller method HttpServletRequest wit
 This way we can receive the parameter from the HttpServletRequest, manipulate them and add them to the model, which is sent to the view.
 In our view we can get Attributes form the model by calling "${ATTRIBUTENAME}".
 
+ADD: Static content like images, css or js can be defined in the spring-mvc-demo-servlet.xml 
+
+```xml
+<mvc:resources mapping="/resources/**" location="/resources/"></mvc:resources>
+``` 
+
+and then used with the following examples:
+
+```jsp
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/my-test.css">
+<script src="${pageContext.request.contextPath}/resources/js/simple-test.js"></script>
+<img src="${pageContext.request.contextPath}/resources/images/spring-logo.png"/>
+```
+
 Server: Apache Tomcat.
