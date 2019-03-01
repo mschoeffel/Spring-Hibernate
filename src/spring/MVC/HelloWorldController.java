@@ -48,7 +48,7 @@ public class HelloWorldController {
     public String letsSayHi2(
             @RequestParam("userName") String name,
             Model model){
-        
+
         name = name.toLowerCase();
 
         String message = "Hi! Bind Param with Annotation! " + name;

@@ -68,5 +68,15 @@ Added: helloworld-form3.jsp
 ---
 This time we make use of the "RequestParam" annotation to get a parameter of the submitted form to the controller in this case we just added "@RequestParam("userName") String name" as Parameter to our method and inside of the method we can use the parameter name and it contains the "userName" of the submitted form.
 
+### Mapping Controller
+Added: MappingController
+
+Added: mapForm.jsp
+
+Added: mapOutput.jsp
+
+---
+Here we gave the controller a "RequestMapping" annotation so every mapping inside of this class is now grouped under the mapping of the controller like a directory system.
+So with this example you can create a tree structure on your websites you only have to care form where you are calling the mappings, because if you are already inside the map directory you don't have to add a second time the "map".
 
 Server: Apache Tomcat.
