@@ -16,6 +16,8 @@
 <a href="showForm2">Process Form Data Advanced</a><br/>
 <a href="showForm3">Process Form Data Advanced Bind Param</a><br/>
 <a href="map/showMapForm">Controller Mapping</a><br/>
+<a href="showSpringForm">Spring Form Bean Mapping</a><br/>
+
 
 </body>
 </html>

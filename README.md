@@ -27,3 +27,4 @@ This is a repository where I go through all the basics of the Java frameworks Sp
 21. [Spring MVC Process Form Data Advanced](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/MVC)
 22. [Spring MVC Process Form Data with Annotation](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/MVC)
 23. [Spring MVC Controller Mapping](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/MVC)
+24. [Spring MVC Form and Object Binding](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/MVC)

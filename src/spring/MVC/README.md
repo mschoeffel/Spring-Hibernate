@@ -79,4 +79,17 @@ Added: mapOutput.jsp
 Here we gave the controller a "RequestMapping" annotation so every mapping inside of this class is now grouped under the mapping of the controller like a directory system.
 So with this example you can create a tree structure on your websites you only have to care form where you are calling the mappings, because if you are already inside the map directory you don't have to add a second time the "map".
 
+### Spring Form and Object Binding
+Added: SpringFormController
+
+Added: springFormDemo.jsp
+
+Added: springFormDone.jsp
+
+---
+Here we used the spring form tags and automated spring model mapping. 
+You can create really easy a spring form with the tags "\<form:form>..." and the included tag library. 
+There you can also define the model to which you want to bind the data in my case it's the Student. 
+Spring calls the setter methods when submitting the form. So in the end you got a model with all the properties given by the form.  
+
 Server: Apache Tomcat.
