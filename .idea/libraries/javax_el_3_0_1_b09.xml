@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javax.el-3.0.1-b09">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/javax.el-3.0.1-b09.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

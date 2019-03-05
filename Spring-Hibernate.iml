@@ -22,6 +22,7 @@
       <configuration>
         <datasource-map />
         <naming-strategy-map />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/hibernate.cfg.xml" />
       </configuration>
     </facet>
     <facet type="javaeeApplication" name="javaEEApplication">
@@ -50,5 +51,8 @@
     <orderEntry type="library" exported="" name="Spring MVC-4.3.18.RELEASE" level="project" />
     <orderEntry type="library" name="javax.servlet-api-4.0.0-javadoc" level="project" />
     <orderEntry type="library" name="javax.servlet-api-4.0.0" level="project" />
+    <orderEntry type="library" name="hibernate-validator-6.0.15.Final" level="project" />
+    <orderEntry type="library" name="javax.el-3.0.1-b09" level="project" />
+    <orderEntry type="library" name="validation-api-2.0.1.Final" level="project" />
   </component>
 </module>

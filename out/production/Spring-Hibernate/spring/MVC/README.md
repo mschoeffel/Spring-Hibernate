@@ -87,6 +87,11 @@ Added: springFormDemo.jsp
 Added: springFormDone.jsp
 
 ---
-Here we used the spring form tags and automated spring model mapping. You can create really easy a spring form with the tags "\<form:form>..." and the included tag library. There you can also define the model to which you want to bind the data in my case it's the Student. Spring calls the setter methods when submitting the form. So in the end you got a model with all the properties given by the form.  
+Here we used the spring form tags and automated spring model mapping. 
+You can create really easy a spring form with the tags "\<form:form>..." and the included tag library. 
+There you can also define the model to which you want to bind the data in my case it's the Student. 
+Spring calls the setter methods when submitting the form. So in the end you got a model with all the properties given by the form.  
+
+### Spring Form Validation
 
 Server: Apache Tomcat.

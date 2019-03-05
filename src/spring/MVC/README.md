@@ -92,4 +92,6 @@ You can create really easy a spring form with the tags "\<form:form>..." and the
 There you can also define the model to which you want to bind the data in my case it's the Student. 
 Spring calls the setter methods when submitting the form. So in the end you got a model with all the properties given by the form.  
 
+### Spring Form Validation
+
 Server: Apache Tomcat.
