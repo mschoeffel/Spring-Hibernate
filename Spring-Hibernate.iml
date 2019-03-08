@@ -16,6 +16,10 @@
         <fileset id="fileset" name="Spring Mvc Demo Servlet" removed="false">
           <file>file://$MODULE_DIR$/web/WEB-INF/spring-mvc-demo-servlet.xml</file>
         </fileset>
+        <fileset id="fileset2" name="Spring Application Context" removed="false">
+          <dependency>fileset</dependency>
+          <file>file://$MODULE_DIR$/web/WEB-INF/spring-mvc-demo-servlet.xml</file>
+        </fileset>
       </configuration>
     </facet>
     <facet type="hibernate" name="Hibernate">
