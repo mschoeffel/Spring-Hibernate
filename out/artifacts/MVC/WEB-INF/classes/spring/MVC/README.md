@@ -6,6 +6,10 @@
 
 Here I'll show an example how to code Spring MVC.
 
+Just open "[ServerURL]/MVC/"
+
+You find the Frontend jsp files in the web/WEB-INF/view folder.
+
 ### Initial:
 Added: HomeController
 
@@ -93,5 +97,13 @@ There you can also define the model to which you want to bind the data in my cas
 Spring calls the setter methods when submitting the form. So in the end you got a model with all the properties given by the form.  
 
 ### Spring Form Validation
+Added: SpringFormValidationController
+
+Added: springFormValidation.jsp
+
+Added: springFormValidationDone.jsp
+
+---
+Here we used the Hibernate annotations to define specific requirements to form fields. If a requirement is not achieved an error message will be given back to the form input an this message will be shown next to the input field.
 
 Server: Apache Tomcat.
