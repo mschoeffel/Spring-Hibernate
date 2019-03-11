@@ -38,6 +38,11 @@
 
     <br><br>
 
+    Invoice Number (*): <form:input path="invoiceNumber" />
+    <form:errors path="invoiceNumber" cssClass="error" />
+
+    <br><br>
+
     <input type="submit" value="Submit" />
 </form:form>
 </body>
