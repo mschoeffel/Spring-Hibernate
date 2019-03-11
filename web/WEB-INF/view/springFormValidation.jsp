@@ -28,6 +28,11 @@
 
     <br><br>
 
+    Tickets (*): <form:input path="tickets" />
+    <form:errors path="tickets" cssClass="error" />
+
+    <br><br>
+
     <input type="submit" value="Submit" />
 </form:form>
 </body>

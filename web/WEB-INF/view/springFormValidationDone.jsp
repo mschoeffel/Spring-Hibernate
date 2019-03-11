@@ -11,6 +11,6 @@
     <title>FormValidation</title>
 </head>
 <body>
-<p>The Customer is confirmed ${customer.firstName} ${customer.lastName}</p>
+<p>The Customer is confirmed ${customer.firstName} ${customer.lastName} Tickets: ${customer.tickets}</p>
 </body>
 </html>

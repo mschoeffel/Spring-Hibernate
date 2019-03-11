@@ -105,5 +105,6 @@ Added: springFormValidationDone.jsp
 
 ---
 Here we used the Hibernate annotations to define specific requirements to form fields. If a requirement is not achieved an error message will be given back to the form input an this message will be shown next to the input field.
+Also all trailing whitespaces will be removed by an InitBinder.
 
 Server: Apache Tomcat.

@@ -1,8 +1,6 @@
 package spring.MVC;
 
-import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
+import javax.validation.constraints.*;
 
 public class Customer {
 
@@ -10,8 +8,11 @@ public class Customer {
 
     @NotNull(message="is required")
     @Size(min=1, message="is required")
-    @NotEmpty
     private String lastName;
+
+    @Min(value=0, message="must be grater then or equal to zero")
+    @Max(value=10, message="musst be less or euqal than 10")
+    private int tickets;
 
     public String getFirstName() {
         return firstName;
@@ -30,4 +31,11 @@ public class Customer {
     }
 
 
+    public int getTickets() {
+        return tickets;
+    }
+
+    public void setTickets(int tickets) {
+        this.tickets = tickets;
+    }
 }
