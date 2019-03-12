@@ -43,6 +43,11 @@
 
     <br><br>
 
+    Customer Number (*): <form:input path="customerNumber" />
+    <form:errors path="customerNumber" cssClass="error" />
+
+    <br><br>
+
     <input type="submit" value="Submit" />
 </form:form>
 </body>

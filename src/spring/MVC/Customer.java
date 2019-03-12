@@ -15,11 +15,14 @@ public class Customer {
     private String postalCode;
 
     @Min(value = 0, message = "must be grater then or equal to zero")
-    @Max(value = 10, message = "musst be less or euqal than 10")
+    @Max(value = 10, message = "must be less or equal than 10")
     private int tickets;
 
     @NotNull(message = "is required")
     private Integer invoiceNumber;
+
+    @CustomAnnotation(value = "CUS", message = "must start with CUS")
+    private String customerNumber;
 
     public String getFirstName() {
         return firstName;
@@ -48,4 +51,8 @@ public class Customer {
     public Integer getInvoiceNumber() { return invoiceNumber; }
 
     public void setInvoiceNumber(Integer invoiceNumber) { this.invoiceNumber = invoiceNumber; }
+
+    public String getCustomerNumber() { return customerNumber; }
+
+    public void setCustomerNumber(String customerNumber) { this.customerNumber = customerNumber; }
 }
