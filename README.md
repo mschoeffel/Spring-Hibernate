@@ -35,3 +35,4 @@ This is a repository where I go through all the basics of the Java frameworks Sp
 29. [Spring MVC Form Custom Error Messages from Properties](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/MVC)
 30. [Spring MVC Form Custom Annotation Validation](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/MVC)
 31. [Hibernate Test Connection](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Hibernate/Test)
+32. [Hibernate Annotation Basic](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Hibernate/AnnotationBasic)
