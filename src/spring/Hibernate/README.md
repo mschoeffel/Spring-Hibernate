@@ -10,4 +10,5 @@ To have the same configuration as me create a MySQL Database called "springhiber
 * [Hibernate Test Connection](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Hibernate/Test)
 * [Hibernate Annotation Basic](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Hibernate/AnnotationBasic)
 * [Hibernate Read](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Hibernate/ReadObject)
+* [Hibernate Query](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Hibernate/QueryObject)
  
