@@ -28,6 +28,8 @@ public class Main {
             //update object
             student.setFirstName("Jooo");
 
+            session.createQuery("update spring.Hibernate.UpdateObject.Student set email = 'TheNewEmail@test.com'").executeUpdate();
+
             //Commit Transaction
             session.getTransaction().commit();
 
