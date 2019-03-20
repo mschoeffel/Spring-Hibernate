@@ -4,7 +4,7 @@
 
 ## Hibernate Annotation Basic
 
-This is just a very basic example of how to use Hibernate to create a database object with a entity class and annotations.\
+This is just a very basic example of how to use Hibernate to create a database object with an entity class and annotations.\
 The annotation "Column" defines what column this property refers to and the "Entity" and "Table" annotation define that this class is an entity and refers to the database table form "Table".
 The config file for Hibernate is in the src directory and contains all the properties to create a connection to the database and defines the log level etc.
 

@@ -39,3 +39,4 @@ This is a repository where I go through all the basics of the Java frameworks Sp
 33. [Hibernate Read From DB](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Hibernate/ReadObject)
 34. [Hibernate Query From DB](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Hibernate/QueryObject)
 35. [Hibernate Update From DB](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Hibernate/UpdateObject)
+35. [Hibernate Delete From DB](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Hibernate/DeleteObject)
