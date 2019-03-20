@@ -2,9 +2,9 @@
 
 ---
 
-## Hibernate Query Objects
+## Hibernate Update Object
 
-This is just a very basic example of how to use Hibernate to get a object from the database with a query and an entity class just by using the "createQuery" and "getResultList" methods.\
+This is just a very basic example of how to use Hibernate to get a object from the database, modify it and write it back to the database with a entity class and annotations.\
 The annotation "Column" defines what column this property refers to and the "Entity" and "Table" annotation define that this class is an entity and refers to the database table form "Table".
 The config file for Hibernate is in the src directory and contains all the properties to create a connection to the database and defines the log level etc.
 

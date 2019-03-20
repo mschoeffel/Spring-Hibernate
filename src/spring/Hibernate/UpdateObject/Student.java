@@ -1,4 +1,4 @@
-package spring.Hibernate.QueryObject;
+package spring.Hibernate.UpdateObject;
 
 
 import javax.persistence.Column;
