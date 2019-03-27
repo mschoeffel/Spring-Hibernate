@@ -26,6 +26,9 @@ public class Main {
             //get the instructor from the bidirectional connection
             Instructor instructor = instructorDetail.getInstructor();
 
+            //delete object from DB this will also delete the instructor because of the bidirectional connection!
+            session.delete(instructorDetail);
+
             //print some information
             System.out.println(instructor.getFirstName());
 
@@ -35,6 +38,9 @@ public class Main {
         } catch(Exception e){
             e.printStackTrace();
         } finally{
+            //close session if exception is thrown
+            session.close();
+
             factory.close();
         }
     }

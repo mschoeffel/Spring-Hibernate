@@ -14,4 +14,5 @@ To have the same configuration as me create a MySQL Database called "springhiber
 * [Hibernate Update](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Hibernate/UpdateObject)
 * [Hibernate Delete](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Hibernate/DeleteObject)
 * [Hibernate Advanced One to One Unidirectional](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Hibernate/OneToOneUni)
+* [Hibernate Advanced One to One Bidirectional](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Hibernate/OneToOneBi)
  

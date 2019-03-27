@@ -47,6 +47,9 @@ public class Main {
         } catch(Exception e){
             e.printStackTrace();
         } finally{
+            //close session if exception is thrown
+            session.close();
+
             factory.close();
         }
     }
