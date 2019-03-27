@@ -30,6 +30,15 @@ public class Main {
             //start transaction
             session.beginTransaction();
 
+            //get object from DB
+            Instructor delInstructor = session.get(Instructor.class, 2);
+
+            //delete object WILL ALSO DELETE DETAIL OBJECT BECAUSE OF ONE TO ONE CONNECTION
+            if(delInstructor != null){
+                session.delete(delInstructor);
+            }
+
+            //save to DB
             session.save(instructor);
 
             //commit transaction
