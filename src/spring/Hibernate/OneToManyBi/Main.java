@@ -25,11 +25,16 @@ public class Main {
             int id = 1;
             Instructor instructor = session.get(Instructor.class, id);
 
-            Course course = new Course("swimming course");
+            System.out.println("Courses: " + instructor.getCourses());
+
+            Course course = new Course("swimming adv course");
+            Course course1 = new Course("guitar");
 
             instructor.add(course);
+            instructor.add(course1);
 
             session.save(course);
+            session.save(course1);
 
 
             //commit transaction
