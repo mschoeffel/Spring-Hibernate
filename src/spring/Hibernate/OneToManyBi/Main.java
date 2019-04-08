@@ -36,6 +36,8 @@ public class Main {
             session.save(course);
             session.save(course1);
 
+            session.delete(course1);
+
 
             //commit transaction
             session.getTransaction().commit();
