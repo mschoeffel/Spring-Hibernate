@@ -29,7 +29,9 @@ public class Main {
             //To break the LAZY loading just close the session here and commit the session before close
             //session.getTransaction().commit();
             //session.close();
-            //since our courses are lazy loaded this schould now fail!
+            //since our courses are lazy loaded this schould now fail!, because we close the session before all the courses are loaded and we want to access it afterwards.
+            //to solve this problem:
+            //option 1: load data before the session is closed
 
             System.out.println("Courses: " + instructor.getCourses()); //Courses will be loaded here when they are requested
 
