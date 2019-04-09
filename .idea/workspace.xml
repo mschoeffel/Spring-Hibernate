@@ -7,18 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c92a05df-67e8-4299-8b32-b3894a075115" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/spring/Hibernate/EagerLoading/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/Hibernate/EagerLoading/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/Hibernate/EagerLoading/InstructorDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/Hibernate/EagerLoading/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/Hibernate/EagerLoading/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/InstructorDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/Hibernate/OneToManyBi/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/Hibernate/OneToManyBi/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,11 +22,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/EagerLoading/README.md">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="161">
-                <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <first_editor relative-caret-position="848">
+                <caret line="46" column="3" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -45,19 +34,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/EagerLoading/Instructor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/EagerLoading/Course.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/EagerLoading/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="161">
+                <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -80,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="644">
+              <caret line="30" column="70" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -99,12 +82,24 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="92">
                 <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="414">
+                <caret line="18" selection-start-line="18" selection-end-line="19" selection-end-column="119" />
               </first_editor>
               <second_editor />
             </state>
@@ -176,8 +171,6 @@
         <option value="$PROJECT_DIR$/src/spring/Hibernate/OneToOneUni/Main.java" />
         <option value="$PROJECT_DIR$/src/spring/Hibernate/OneToOneBi/Main.java" />
         <option value="$PROJECT_DIR$/src/spring/Hibernate/OneToManyBi/Instructor.java" />
-        <option value="$PROJECT_DIR$/src/spring/Hibernate/README.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/spring/Hibernate/OneToManyBi/Course.java" />
         <option value="$PROJECT_DIR$/src/spring/Hibernate/OneToManyBi/Main.java" />
         <option value="$PROJECT_DIR$/src/spring/Hibernate/OneToManyBi/README.md" />
@@ -187,9 +180,11 @@
         <option value="$PROJECT_DIR$/src/spring/Hibernate/EagerVsLazyLoading/Main.java" />
         <option value="$PROJECT_DIR$/src/spring/Hibernate/EagerLoading/Main.java" />
         <option value="$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/Instructor.java" />
-        <option value="$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/Main.java" />
         <option value="$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/README.md" />
         <option value="$PROJECT_DIR$/src/spring/Hibernate/EagerLoading/README.md" />
+        <option value="$PROJECT_DIR$/src/spring/Hibernate/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/Main.java" />
       </list>
     </option>
   </component>
@@ -274,7 +269,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554827478096" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554827742512" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -504,12 +499,12 @@
       <workItem from="1553272755680" duration="4214000" />
       <workItem from="1553705367152" duration="2195000" />
       <workItem from="1554738057477" duration="2497000" />
-      <workItem from="1554824642218" duration="2817000" />
+      <workItem from="1554824642218" duration="3066000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82370000" />
+    <option name="totallyTimeSpent" value="82619000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -812,16 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1012">
-            <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/OneToOneBi/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -869,16 +854,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="391">
-            <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -940,13 +915,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/EagerLoading/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -964,6 +932,33 @@
             <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="414">
+            <caret line="18" selection-start-line="18" selection-end-line="19" selection-end-column="119" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="848">
+            <caret line="46" column="3" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="30" column="70" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="70" />
         </state>
       </provider>
     </entry>

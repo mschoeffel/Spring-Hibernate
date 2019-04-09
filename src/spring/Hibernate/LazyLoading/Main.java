@@ -25,6 +25,12 @@ public class Main {
             int id = 1;
             Instructor instructor = session.get(Instructor.class, id);
 
+            //Extra:
+            //To break the LAZY loading just close the session here and commit the session before close
+            //session.getTransaction().commit();
+            //session.close();
+            //since our courses are lazy loaded this schould now fail!
+
             System.out.println("Courses: " + instructor.getCourses()); //Courses will be loaded here when they are requested
 
             //commit transaction
