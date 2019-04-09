@@ -3,8 +3,9 @@ package spring.Hibernate.LazyLoading;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
+import org.hibernate.query.Query;
 
-public class Main {
+public class Main2 {
 
     public static void main(String[] args){
 
@@ -21,18 +22,19 @@ public class Main {
             //start transaction
             session.beginTransaction();
 
-            //get the instructor
+            //instructor id
             int id = 1;
-            Instructor instructor = session.get(Instructor.class, id);
+            //create HQL query
+            Query<Instructor> query = session.createQuery("SELECT i FROM Instructor i " +
+                            "JOIN FETCH i.courses " +
+                            "WHERE i.id = :theInstructorId"
+                    , Instructor.class);
 
-            //Extra:
-            //To break the LAZY loading just close the session here and commit the session before close
-            //session.getTransaction().commit();
-            //session.close();
-            //since our courses are lazy loaded this schould now fail!, because we close the session before all the courses are loaded and we want to access it afterwards.
-            //to solve this problem:
-            //option 1: load data before the session is closed
-            //option 2: query with HQL -> see Main2
+            //set parameter on query
+            query.setParameter("theInstructorId", id);
+
+            //get the instructor
+            Instructor instructor = query.getSingleResult(); //this loads everything at once -> lazy loading session problem solved
 
             System.out.println("Courses: " + instructor.getCourses()); //Courses will be loaded here when they are requested
 

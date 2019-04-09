@@ -6,6 +6,8 @@
 
 Lazy will only load on request.
 
+Also some problems with lazy loading and session management are explained in the comments of "Main". "Main2" solves the problem using HQL.
+
 The config file for Hibernate is in the src directory and contains all the properties to create a connection to the database and defines the log level etc.
 
 To get the code working for you you need to modify the connection properties of the config file in the src directory and use the following sql database:\
