@@ -29,6 +29,9 @@ public class Main {
             System.out.println(course);
 
             System.out.println(course.getReviews());
+            
+            //delete everything also the reviews, because of the cascade type we set
+            session.delete(course);
 
             //commit transaction
             session.getTransaction().commit();
