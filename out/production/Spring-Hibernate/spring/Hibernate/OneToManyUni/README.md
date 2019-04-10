@@ -2,12 +2,11 @@
 
 ---
 
-## Hibernate Lazy Loading
+## Hibernate Advanced One to Many / Many to One Unidirectional
 
-Lazy will only load on request.
-
-Also some problems with lazy loading and session management are explained in the comments of "Main". "Main2" solves the problem using HQL.
-
+This is just a very basic example of how to use Hibernate to get a one to many / many to one bidirectional connection between two objects from the database.\
+The annotation "OneToMany" defines the connection type between two tables and the annotation "JoinColumn" defines the key to connect these two.\
+This time also the "Instructor" gets a property list "Course" and links it with the annotation "OneToMany" and the attribute mapped by, that connects the Course class with the Instructor class.
 The config file for Hibernate is in the src directory and contains all the properties to create a connection to the database and defines the log level etc.
 
 To get the code working for you you need to modify the connection properties of the config file in the src directory and use the following sql database:\

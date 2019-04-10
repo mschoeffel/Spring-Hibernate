@@ -7,11 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c92a05df-67e8-4299-8b32-b3894a075115" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/InstructorDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/Review.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spring/Hibernate/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/Hibernate/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,65 +33,12 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="500">
-                <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
+              <first_editor relative-caret-position="445">
+                <caret line="43" column="40" lean-forward="true" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/EagerLoading/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="161">
-                <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/EagerLoading/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="27" column="70" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/Instructor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/Main2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/Course.java">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -111,10 +62,82 @@
         <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="414">
-                <caret line="18" selection-start-line="18" selection-end-line="19" selection-end-column="119" />
+              <first_editor relative-caret-position="506">
+                <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/Instructor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-138">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/Course.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="667">
+              <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1395#1396#0" expanded="true" />
+                <element signature="e#1425#1426#0" expanded="true" />
+                <element signature="e#1477#1478#0" expanded="true" />
+                <element signature="e#1515#1516#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/InstructorDetail.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="1089">
+                <caret line="61" column="30" lean-forward="true" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/Review.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+              <folding>
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#590#591#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#651#652#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,10 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/springFormDone.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/springFormDemo.jsp" />
-        <option value="$PROJECT_DIR$/src/spring/MVC/Student.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/main-menu.jsp" />
         <option value="$PROJECT_DIR$/src/spring/MVC/SpringFormValidationController.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/spring-mvc-demo-servlet.xml" />
         <option value="$PROJECT_DIR$/src/resources/messages.properties" />
@@ -184,10 +203,14 @@
         <option value="$PROJECT_DIR$/src/spring/Hibernate/EagerLoading/Main.java" />
         <option value="$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/Instructor.java" />
         <option value="$PROJECT_DIR$/src/spring/Hibernate/EagerLoading/README.md" />
-        <option value="$PROJECT_DIR$/src/spring/Hibernate/README.md" />
         <option value="$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/Main.java" />
         <option value="$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/Main2.java" />
         <option value="$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/README.md" />
+        <option value="$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/Course.java" />
+        <option value="$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/Review.java" />
+        <option value="$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/Main.java" />
+        <option value="$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/README.md" />
+        <option value="$PROJECT_DIR$/src/spring/Hibernate/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -213,6 +236,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,36 +268,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
               <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="EagerLoading" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="LazyLoading" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
               <item name="OneToManyBi" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554828585686" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554912208333" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -283,22 +290,22 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Shared\Spring-Hibernate\src\spring\Hibernate\LazyLoading" />
-      <recent name="D:\Shared\Spring-Hibernate\src\spring\Hibernate\EagerVsLazyLoading" />
-      <recent name="D:\Shared\Spring-Hibernate\src\spring\Hibernate\OneToManyBi" />
-      <recent name="D:\Shared\Spring-Hibernate\src\spring\Hibernate\OneToOneBi" />
-      <recent name="D:\Shared\Spring-Hibernate\src\spring\Hibernate\OneToOneUni" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="spring.Hibernate.LazyLoading" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Shared\Spring-Hibernate\lib" />
       <recent name="D:\Shared\Spring-Hibernate\src" />
       <recent name="D:\Shared\Spring-Hibernate\out\production\Spring-Hibernate" />
       <recent name="D:\Shared\Spring-Hibernate" />
       <recent name="D:\Shared\Spring-Hibernate\src\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="spring.Hibernate.LazyLoading" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Shared\Spring-Hibernate\src\spring\Hibernate\OneToManyUni" />
+      <recent name="D:\Shared\Spring-Hibernate\src\spring\Hibernate\LazyLoading" />
+      <recent name="D:\Shared\Spring-Hibernate\src\spring\Hibernate\EagerVsLazyLoading" />
+      <recent name="D:\Shared\Spring-Hibernate\src\spring\Hibernate\OneToManyBi" />
+      <recent name="D:\Shared\Spring-Hibernate\src\spring\Hibernate\OneToOneBi" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -313,7 +320,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main2">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="spring.Hibernate.OneToManyBi.Main" />
       <module name="Spring-Hibernate" />
@@ -327,12 +334,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spring.Hibernate.DeleteObject.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spring.Hibernate.OneToManyUni.Main" />
       <module name="Spring-Hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spring.Hibernate.DeleteObject.*" />
+          <option name="PATTERN" value="spring.Hibernate.OneToManyUni.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -451,20 +458,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Main (5)" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.12" />
       <item itemvalue="Application.Main2" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.12" />
+      <item itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -506,18 +513,19 @@
       <workItem from="1553272755680" duration="4214000" />
       <workItem from="1553705367152" duration="2195000" />
       <workItem from="1554738057477" duration="2497000" />
-      <workItem from="1554824642218" duration="3923000" />
+      <workItem from="1554824642218" duration="4056000" />
+      <workItem from="1554910240369" duration="1891000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83476000" />
+    <option name="totallyTimeSpent" value="85500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49950835" visible="true" weight="0.20842217" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49950835" visible="true" weight="0.21055438" />
       <window_info id="Structure" order="1" sideWeight="0.5004916" side_tool="true" weight="0.18123667" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" side_tool="true" />
@@ -561,103 +569,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/springFormValidation.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1058">
-          <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/main-menu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/MVC/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="67" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/MVC/CustomAnnotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/MVC/CustomAnnotationValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/Test/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="138">
-            <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/AnnotationBasic/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/AnnotationBasic/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/Test/HibernateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="101" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/springFormValidationDone.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/ReadObject/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/ReadObject/Student.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -861,16 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/OneToManyBi/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="874">
-            <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/EagerLoading/Course.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -899,27 +800,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/Course.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/InstructorDetail.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/EagerLoading/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="161">
-            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="414">
-            <caret line="18" selection-start-line="18" selection-end-line="19" selection-end-column="119" />
+            <caret line="7" selection-start-line="7" selection-end-line="7" />
           </first_editor>
           <second_editor />
         </state>
@@ -927,24 +812,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/Instructor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
+        <state relative-caret-position="529">
           <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="736">
           <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/OneToManyBi/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="874">
+            <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/Main2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="713">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/Course.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/InstructorDetail.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -956,11 +857,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/OneToManyBi/Instructor.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/OneToManyBi/Course.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/OneToManyBi/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/OneToManyBi/InstructorDetail.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/OneToManyBi/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/InstructorDetail.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/Review.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/Instructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1395#1396#0" expanded="true" />
+            <element signature="e#1425#1426#0" expanded="true" />
+            <element signature="e#1477#1478#0" expanded="true" />
+            <element signature="e#1515#1516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1089">
+            <caret line="61" column="30" lean-forward="true" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="506">
+            <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="500">
-            <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
+          <first_editor relative-caret-position="445">
+            <caret line="43" column="40" lean-forward="true" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
           </first_editor>
           <second_editor />
         </state>
