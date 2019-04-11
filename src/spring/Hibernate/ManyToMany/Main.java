@@ -1,4 +1,4 @@
-package spring.Hibernate.OneToManyUni;
+package spring.Hibernate.ManyToMany;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -14,6 +14,7 @@ public class Main {
                 .addAnnotatedClass(InstructorDetail.class)
                 .addAnnotatedClass(Course.class)
                 .addAnnotatedClass(Review.class)
+                .addAnnotatedClass(Student.class)
                 .buildSessionFactory();
 
         Session session = factory.getCurrentSession();
@@ -23,15 +24,10 @@ public class Main {
             session.beginTransaction();
 
             //get the instructor
-            int id = 8;
+            int id = 3;
             Course course = session.get(Course.class, id);
 
-            System.out.println(course);
-
-            System.out.println(course.getReviews());
-
-            //delete everything also the reviews, because of the cascade type we set
-            session.delete(course);
+            course.getStudents().forEach(elem -> System.out.println(elem.getFirstName() + elem.getLastName() + " takes this course"));
 
             //commit transaction
             session.getTransaction().commit();

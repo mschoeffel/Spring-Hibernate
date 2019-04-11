@@ -21,4 +21,5 @@ To have the same configuration as me create a MySQL Database called "springhiber
 * [Hibernate Break and Resolve Lazy Loading](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Hibernate/LazyLoading)
 * [Hibernate HQL Resolve Lazy Loading](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Hibernate/LazyLoading)
 * [Hibernate Advanced One to Many Unidirectional](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Hibernate/OneToManyUni)
+* [Hibernate Advanced Many to Many](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Hibernate/ManyToMany)
  
