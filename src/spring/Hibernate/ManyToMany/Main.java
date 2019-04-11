@@ -29,6 +29,13 @@ public class Main {
 
             course.getStudents().forEach(elem -> System.out.println(elem.getFirstName() + elem.getLastName() + " takes this course"));
 
+            Student student = session.get(Student.class, 1);
+
+            //hibernate also adds the keys to the connection table to save the many to many relationship
+            course.addStudent(student);
+
+            session.save(course);
+
             //commit transaction
             session.getTransaction().commit();
 

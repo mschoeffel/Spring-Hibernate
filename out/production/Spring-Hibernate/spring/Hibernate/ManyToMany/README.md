@@ -4,9 +4,9 @@
 
 ## Hibernate Advanced Many to Many
 
-This is just a very basic example of how to use Hibernate to get a one to many / many to one unidirectional connection between two objects from the database.\
-The annotation "OneToMany" defines the connection type between two tables and the annotation "JoinColumn" defines the key to connect these two.\
-This time the "Course" gets a property list "Reviews" and links it with the annotation "OneToMany" and the attribute mapped by, that connects the Course class with the Review class.
+This is just a very basic example of how to use Hibernate to get a many to many connection between two objects from the database.\
+The annotation "ManyToMany" defines the connection type between two tables, the attribute "name" defines the connection table, the attribute "joinColumns" the column on the own side to connect to to the connection table and the annotation "inverseJoinColumns" the column to connect the other table to the connection table.\
+
 The config file for Hibernate is in the src directory and contains all the properties to create a connection to the database and defines the log level etc.
 
 To get the code working for you you need to modify the connection properties of the config file in the src directory and use the following sql database:
@@ -22,7 +22,26 @@ create table course
     foreign key (instructor_id) references instructor (id)
 );
 
-INSERT INTO springhibernate.course (id, title, instructor_id) VALUES (8, 'swimming adv course', 1);
+INSERT INTO springhibernate.course (id, title, instructor_id) VALUES (1, 'Math', 1);
+INSERT INTO springhibernate.course (id, title, instructor_id) VALUES (2, 'Latin', 2);
+INSERT INTO springhibernate.course (id, title, instructor_id) VALUES (3, 'Physics', 2);
+create table course_student
+(
+  course_id int null,
+  student_id int null,
+  constraint course_student_course_id_fk
+    foreign key (course_id) references course (id),
+  constraint course_student_student_id_fk
+    foreign key (student_id) references student (id)
+);
+
+INSERT INTO springhibernate.course_student (course_id, student_id) VALUES (1, 1);
+INSERT INTO springhibernate.course_student (course_id, student_id) VALUES (2, 1);
+INSERT INTO springhibernate.course_student (course_id, student_id) VALUES (3, 6);
+INSERT INTO springhibernate.course_student (course_id, student_id) VALUES (1, 3);
+INSERT INTO springhibernate.course_student (course_id, student_id) VALUES (1, 6);
+INSERT INTO springhibernate.course_student (course_id, student_id) VALUES (2, 3);
+INSERT INTO springhibernate.course_student (course_id, student_id) VALUES (3, 3);
 create table instructor
 (
   id int auto_increment primary key,
@@ -37,11 +56,12 @@ create index FK_DETAIL_idx
   on instructor (instructor_detail_id);
 
 INSERT INTO springhibernate.instructor (id, first_name, last_name, instructor_detail_id) VALUES (1, 'John', 'Doe', 1);
+INSERT INTO springhibernate.instructor (id, first_name, last_name, instructor_detail_id) VALUES (2, 'Joe', 'Jon', null);
 create table instructor_detail
 (
   id int auto_increment primary key,
   email varchar(128) null,
-  hobby varchar(45) null
+  hobby varchar(45)  null
 );
 
 INSERT INTO springhibernate.instructor_detail (id, email, hobby) VALUES (1, 'test@mail.com', 'swimming');
@@ -54,8 +74,7 @@ create table review
     foreign key (course_id) references course (id)
 );
 
-INSERT INTO springhibernate.review (id, comment, course_id) VALUES (1, 'testcomment', 8);
-INSERT INTO springhibernate.review (id, comment, course_id) VALUES (2, 'this is a comment', 8);
+
 create table student
 (
   id int auto_increment primary key,
@@ -64,8 +83,8 @@ create table student
   email varchar(45) null
 );
 
-INSERT INTO springhibernate.student (id, first_name, last_name, email) VALUES (1, 'Jooo', 'JonJon', 'thenewemial@test.com');
-INSERT INTO springhibernate.student (id, first_name, last_name, email) VALUES (3, 'Josef', 'JonNoe', 'thenewemial@test.com');
-INSERT INTO springhibernate.student (id, first_name, last_name, email) VALUES (6, 'Josef', 'JonNoe', 'thenewemial@test.com');
-INSERT INTO springhibernate.student (id, first_name, last_name, email) VALUES (7, 'Josef', 'JonNoe', 'thenewemial@test.com');
+INSERT INTO springhibernate.student (id, first_name, last_name, email) VALUES (1, 'Jooo', 'JonJon1', 'thenewemial@test.com');
+INSERT INTO springhibernate.student (id, first_name, last_name, email) VALUES (3, 'Josef', 'JonNoe2', 'thenewemial@test.com');
+INSERT INTO springhibernate.student (id, first_name, last_name, email) VALUES (6, 'Josef', 'JonNoe3', 'thenewemial@test.com');
+INSERT INTO springhibernate.student (id, first_name, last_name, email) VALUES (7, 'Josef', 'JonNoe4', 'thenewemial@test.com');
 ```

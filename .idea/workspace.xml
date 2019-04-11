@@ -7,17 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c92a05df-67e8-4299-8b32-b3894a075115" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/spring/Hibernate/ManyToMany/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/Hibernate/ManyToMany/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/Hibernate/ManyToMany/InstructorDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/Hibernate/ManyToMany/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/Hibernate/ManyToMany/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/Hibernate/ManyToMany/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/Hibernate/ManyToMany/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/Hibernate/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/Hibernate/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spring/Hibernate/ManyToMany/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/Hibernate/ManyToMany/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spring/Hibernate/ManyToMany/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/Hibernate/ManyToMany/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spring/Hibernate/ManyToMany/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/Hibernate/ManyToMany/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +24,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -68,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/ManyToMany/Course.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="33" column="35" lean-forward="true" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+            <state relative-caret-position="585">
+              <caret line="92" column="30" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
               <folding>
                 <element signature="e#1788#1789#0" expanded="true" />
                 <element signature="e#1819#1820#0" expanded="true" />
@@ -109,11 +102,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/ManyToMany/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="29" column="91" lean-forward="true" selection-start-line="29" selection-start-column="91" selection-end-line="29" selection-end-column="91" />
+            <state relative-caret-position="805">
+              <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -122,8 +115,8 @@
         <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/ManyToMany/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="92">
-                <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+              <first_editor relative-caret-position="1618">
+                <caret line="88" column="126" selection-start-line="88" selection-start-column="126" selection-end-line="88" selection-end-column="126" />
               </first_editor>
               <second_editor />
             </state>
@@ -194,12 +187,12 @@
         <option value="$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/Review.java" />
         <option value="$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/README.md" />
         <option value="$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/Main.java" />
-        <option value="$PROJECT_DIR$/src/spring/Hibernate/ManyToMany/Course.java" />
         <option value="$PROJECT_DIR$/src/spring/Hibernate/ManyToMany/Student.java" />
-        <option value="$PROJECT_DIR$/src/spring/Hibernate/ManyToMany/Main.java" />
-        <option value="$PROJECT_DIR$/src/spring/Hibernate/ManyToMany/README.md" />
         <option value="$PROJECT_DIR$/src/spring/Hibernate/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/spring/Hibernate/ManyToMany/README.md" />
+        <option value="$PROJECT_DIR$/src/spring/Hibernate/ManyToMany/Course.java" />
+        <option value="$PROJECT_DIR$/src/spring/Hibernate/ManyToMany/Main.java" />
       </list>
     </option>
   </component>
@@ -264,6 +257,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
               <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="ManyToMany" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-Hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-Hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
               <item name="OneToManyUni" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -276,7 +277,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554999982080" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555000850134" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -512,12 +513,12 @@
       <workItem from="1554738057477" duration="2497000" />
       <workItem from="1554824642218" duration="4056000" />
       <workItem from="1554910240369" duration="2771000" />
-      <workItem from="1554999093228" duration="932000" />
+      <workItem from="1554999093228" duration="1550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87312000" />
+    <option name="totallyTimeSpent" value="87930000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -870,19 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/ManyToMany/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="33" column="35" lean-forward="true" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-          <folding>
-            <element signature="e#1788#1789#0" expanded="true" />
-            <element signature="e#1819#1820#0" expanded="true" />
-            <element signature="e#1874#1875#0" expanded="true" />
-            <element signature="e#1914#1915#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/ManyToMany/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -893,23 +881,6 @@
             <element signature="e#1217#1218#0" expanded="true" />
             <element signature="e#1253#1254#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/ManyToMany/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="92">
-            <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/ManyToMany/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="29" column="91" lean-forward="true" selection-start-line="29" selection-start-column="91" selection-end-line="29" selection-end-column="91" />
         </state>
       </provider>
     </entry>
@@ -930,6 +901,36 @@
             <caret line="47" column="54" lean-forward="true" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/ManyToMany/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1618">
+            <caret line="88" column="126" selection-start-line="88" selection-start-column="126" selection-end-line="88" selection-end-column="126" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/ManyToMany/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="92" column="30" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
+          <folding>
+            <element signature="e#1788#1789#0" expanded="true" />
+            <element signature="e#1819#1820#0" expanded="true" />
+            <element signature="e#1874#1875#0" expanded="true" />
+            <element signature="e#1914#1915#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/ManyToMany/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
         </state>
       </provider>
     </entry>
