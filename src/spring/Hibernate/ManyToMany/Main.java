@@ -36,6 +36,9 @@ public class Main {
 
             session.save(course);
 
+            //you can get te results also the other way round all courses to a specific student
+            student.getCourse().forEach(elem -> System.out.println("Student takes part in " + elem.getTitle()));
+
             //commit transaction
             session.getTransaction().commit();
 
