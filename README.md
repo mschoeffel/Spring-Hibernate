@@ -48,4 +48,5 @@ This is a repository where I go through all the basics of the Java frameworks Sp
 42. [Hibernate Break and Resolve Lazy Loading](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Hibernate/LazyLoading)
 43. [Hibernate HQL Resolve Lazy Loading](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Hibernate/LazyLoading)
 44. [Hibernate Advanced One To Many Unidirectional Connection](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Hibernate/OneToManyUni)
-44. [Hibernate Advanced Many To Many Connection](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Hibernate/ManyToMany)
+45. [Hibernate Advanced Many To Many Connection](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Hibernate/ManyToMany)
+45. [Spring Security MVC Setup with Annotations](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Security)
