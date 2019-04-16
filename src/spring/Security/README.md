@@ -16,6 +16,7 @@ This time we also don't use XML for our config. Instead we only use annotations 
 
 If you want to get it properly working use the Maven file below and just copy the Security directory and the frontend directory.\
 Then you can run the application with the maven command `clean install jetty:run`. Just call `http://localhost:8080/spring` to open the website.
+
 ----
 So we set up our DemoController as controller. Our DemoAppConfig this time holds all of our web.xml config as annotations.
 The MySpringMvcDispatchServletInitializer keeps the spring-mvc-demo-sevlet.xml configs.
