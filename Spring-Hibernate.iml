@@ -63,5 +63,6 @@
     <orderEntry type="library" name="javax.el-3.0.1-b09" level="project" />
     <orderEntry type="library" name="validation-api-2.0.1.Final" level="project" />
     <orderEntry type="library" name="mysql-connector-java-8.0.15" level="project" />
+    <orderEntry type="library" name="spring-security-core-5.1.5.RELEASE" level="project" />
   </component>
 </module>
