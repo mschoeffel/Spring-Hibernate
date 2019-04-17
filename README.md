@@ -51,3 +51,4 @@ This is a repository where I go through all the basics of the Java frameworks Sp
 45. [Hibernate Advanced Many To Many Connection](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Hibernate/ManyToMany)
 46. [Spring Security MVC Setup with Annotations](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Security)
 47. [Spring Security Login Form and Maven support](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Security)
+47. [Spring Security Logout System](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Security)
