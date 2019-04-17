@@ -7,9 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c92a05df-67e8-4299-8b32-b3894a075115" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.SynologyWorkingDirectory/mQzxbHon" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.SynologyWorkingDirectory/w553TRo3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.SynologyWorkingDirectory/0lIO9k0i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.SynologyWorkingDirectory/c6EpVnBh" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/spring/Security/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/Security/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,7 +23,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -63,12 +62,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/spring/Security/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="552">
-                <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+              <first_editor relative-caret-position="529">
+                <caret line="29" column="262" lean-forward="true" selection-start-line="29" selection-start-column="262" selection-end-line="29" selection-end-column="262" />
               </first_editor>
               <second_editor />
             </state>
@@ -179,8 +178,8 @@
         <option value="$PROJECT_DIR$/src/spring/Security/config/DemoSecurityConfig.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/security/home.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/security/plain-login.jsp" />
-        <option value="$PROJECT_DIR$/src/spring/Security/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/spring/Security/README.md" />
       </list>
     </option>
   </component>
@@ -523,12 +522,12 @@
       <workItem from="1554999093228" duration="1942000" />
       <workItem from="1555347987588" duration="2523000" />
       <workItem from="1555429935017" duration="2809000" />
-      <workItem from="1555519105225" duration="990000" />
+      <workItem from="1555519105225" duration="1488000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95254000" />
+    <option name="totallyTimeSpent" value="95752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -879,21 +878,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/Security/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="552">
-            <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="848">
             <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/Security/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="529">
+            <caret line="29" column="262" lean-forward="true" selection-start-line="29" selection-start-column="262" selection-end-line="29" selection-end-column="262" />
           </first_editor>
           <second_editor />
         </state>

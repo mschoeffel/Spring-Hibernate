@@ -27,6 +27,8 @@ Only if the user is correctly logged in he/she can see the company website.
 
 **Note:** The Spring `<form:form>` tag automatically provides CSRF protection! If you want to use the standard HTML `<form>` take care to add the CSRF protection manually by adding: `<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" \>` to every login form!
 
+To show the UserId and Role you have to add the "Spring Security Tag Library"(see pom.xml). With this library included to the jsp page you can access the UserId and Role with the tags: `<security:authentication property="principal.username"/>` for the User and `<security:authentication property="principal.authorities"/>` for the Role. 
+
 
 Server: Apache Tomcat.
 
@@ -72,6 +74,12 @@ Maven pom.xml
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-config</artifactId>
+            <version>${springsecurity.version}</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-taglibs</artifactId>
             <version>${springsecurity.version}</version>
         </dependency>
 
