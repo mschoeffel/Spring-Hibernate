@@ -29,7 +29,9 @@ Only if the user is correctly logged in he/she can see the company website.
 
 To show the UserId and Role you have to add the "Spring Security Tag Library"(see pom.xml). With this library included to the jsp page you can access the UserId and Role with the tags: `<security:authentication property="principal.username"/>` for the User and `<security:authentication property="principal.authorities"/>` for the Role. 
 
-To authorize special roles to special sections of the WebApp you have to use the `.antMatchers("/").hasRole("EMPLOYEE")` method in the SpringSecurityConfig when authorizing a request in the `configure` method. If you want to authorize multiple roles you can use the following method instead an give a list of comma separated roles: `.antMatchers("/system/").hasAnyRole("MANAGER", "ADMIN")`. The parameter of the antMatcher defines the URL-path you want to authorize a `/**` means "also all pages below the given page". 
+To authorize special roles to special sections of the WebApp you have to use the `.antMatchers("/").hasRole("EMPLOYEE")` method in the SpringSecurityConfig when authorizing a request in the `configure` method. If you want to authorize multiple roles you can use the following method instead an give a list of comma separated roles: `.antMatchers("/system/").hasAnyRole("MANAGER", "ADMIN")`. The parameter of the antMatcher defines the URL-path you want to authorize a `/**` means "also all pages below the given page".
+
+To show a custom access denied page you have to add the method `.exceptionHandling().accessDeniedPage("/accessDenied")` to your SpringSecurityConfig. the parameter given in the `accessDeniedPage` method is the page that get's displayed when no access is granted for a user and their role is not authorized to view a page. Care you have to create a ControllerMapping to route this page!
 
 Server: Apache Tomcat.
 

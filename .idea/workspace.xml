@@ -7,14 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c92a05df-67e8-4299-8b32-b3894a075115" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/security/leaders.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.SynologyWorkingDirectory/tCrXZQkJ" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/security/accessDenied.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/spring/Security/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/Security/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/spring/Security/config/DemoSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/Security/config/DemoSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/spring/Security/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/Security/controller/DemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/security/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/security/home.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,13 +25,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/Security/config/DemoAppConfig.java">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="848">
+                <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/Security/config/SecurityWebApplicationInitializer.java">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/security/accessDenied.jsp">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -46,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/spring/Security/config/DemoSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+            <state relative-caret-position="713">
+              <caret line="41" column="18" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,12 +59,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/spring/Security/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="575">
-                <caret line="31" column="516" lean-forward="true" selection-start-line="31" selection-start-column="516" selection-end-line="31" selection-end-column="516" />
+              <first_editor relative-caret-position="621">
+                <caret line="33" column="385" selection-start-line="33" selection-start-column="385" selection-end-line="33" selection-end-column="385" />
               </first_editor>
               <second_editor />
             </state>
@@ -106,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/spring/Security/controller/DemoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            <state relative-caret-position="529">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -177,9 +181,9 @@
         <option value="$PROJECT_DIR$/src/spring/Security/DemoAppConfig.java" />
         <option value="$PROJECT_DIR$/src/spring/Security/DemoController.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/security/plain-login.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/security/home.jsp" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/spring/Security/controller/DemoController.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/security/home.jsp" />
         <option value="$PROJECT_DIR$/src/spring/Security/config/DemoSecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/spring/Security/README.md" />
       </list>
@@ -524,12 +528,12 @@
       <workItem from="1555347987588" duration="2523000" />
       <workItem from="1555429935017" duration="2809000" />
       <workItem from="1555519105225" duration="1649000" />
-      <workItem from="1555615516931" duration="1838000" />
+      <workItem from="1555615516931" duration="2484000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97751000" />
+    <option name="totallyTimeSpent" value="98397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -579,16 +583,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/ReadObject/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="138">
-            <caret line="6" column="99" selection-start-line="6" selection-start-column="99" selection-end-line="6" selection-end-column="99" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/Hibernate/QueryObject/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -826,16 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="825">
-            <caret line="56" column="52" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="52" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/Security/config/DemoAppConfig.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -859,13 +843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/Security/controller/DemoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/security/leaders.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -880,10 +857,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/security/accessDenied.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/Security/controller/DemoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/Security/config/DemoSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+        <state relative-caret-position="713">
+          <caret line="41" column="18" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -893,8 +880,18 @@
     <entry file="file://$PROJECT_DIR$/src/spring/Security/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="575">
-            <caret line="31" column="516" lean-forward="true" selection-start-line="31" selection-start-column="516" selection-end-line="31" selection-end-column="516" />
+          <first_editor relative-caret-position="621">
+            <caret line="33" column="385" selection-start-line="33" selection-start-column="385" selection-end-line="33" selection-end-column="385" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="848">
+            <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
           </first_editor>
           <second_editor />
         </state>

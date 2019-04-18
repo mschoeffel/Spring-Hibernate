@@ -53,5 +53,6 @@ This is a repository where I go through all the basics of the Java frameworks Sp
 47. [Spring Security Login Form and Maven support](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Security)
 48. [Spring Security Logout System](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Security)
 49. [Spring Security CSRF Protection Note](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Security)
-49. [Spring Security Getting User and Role](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Security)
-49. [Spring Security Restricted Pages based on Roles](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Security)
+50. [Spring Security Getting User and Role](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Security)
+51. [Spring Security Restricted Pages based on Roles](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Security)
+52. [Spring Security Custom Access Denied Page](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Security)

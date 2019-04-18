@@ -17,4 +17,10 @@ public class DemoController {
 
 		return "security/leaders";
 	}
+
+	@GetMapping("/accessDenied")
+	public String showDenied() {
+
+		return "accessDenied";
+	}
 }
