@@ -9,6 +9,12 @@ public class DemoController {
 	@GetMapping("/")
 	public String showHome() {
 		
-		return "home";
+		return "security/home";
+	}
+
+	@GetMapping("/leaders")
+	public String showLeaders() {
+
+		return "security/leaders";
 	}
 }
