@@ -33,6 +33,8 @@ To authorize special roles to special sections of the WebApp you have to use the
 
 To show a custom access denied page you have to add the method `.exceptionHandling().accessDeniedPage("/accessDenied")` to your SpringSecurityConfig. the parameter given in the `accessDeniedPage` method is the page that get's displayed when no access is granted for a user and their role is not authorized to view a page. Care you have to create a ControllerMapping to route this page!
 
+To display content based on the role just simply use the tag: `<security:authorize access="hasRole('MANAGER')">` the String you give the `hasRole()` method as parameter is the role that gets to see the content between the opening and closing tag of `<security:authorize>`.
+
 Server: Apache Tomcat.
 
 Maven pom.xml
