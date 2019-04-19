@@ -169,3 +169,31 @@ Maven pom.xml
 </project>
 
 ```
+
+Database tables:
+```mysql
+create table users
+(
+  username varchar(50) not null primary key,
+  password char(60)    null,
+  enabled  tinyint(1)  null
+);
+
+INSERT INTO springhibernate.users (username, password, enabled) VALUES ('john', '{noop}test123', 1);
+INSERT INTO springhibernate.users (username, password, enabled) VALUES ('mary', '{noop}test123', 1);
+INSERT INTO springhibernate.users (username, password, enabled) VALUES ('susan', '{noop}test123', 1);
+
+create table authorities
+(
+  username  varchar(50) null,
+  authority varchar(50) null,
+  constraint authorities_users_username_fk
+    foreign key (username) references users (username)
+);
+
+INSERT INTO springhibernate.authorities (username, authority) VALUES ('john', 'ROLE_EMPLOYEE');
+INSERT INTO springhibernate.authorities (username, authority) VALUES ('mary', 'ROLE_EMPLOYEE');
+INSERT INTO springhibernate.authorities (username, authority) VALUES ('mary', 'ROLE_MANAGER');
+INSERT INTO springhibernate.authorities (username, authority) VALUES ('susan', 'ROLE_EMPLOYEE');
+INSERT INTO springhibernate.authorities (username, authority) VALUES ('susan', 'ROLE_ADMIN');
+```
