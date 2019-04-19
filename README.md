@@ -57,3 +57,4 @@ This is a repository where I go through all the basics of the Java frameworks Sp
 51. [Spring Security Restricted Pages based on Roles](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Security)
 52. [Spring Security Custom Access Denied Page](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Security)
 53. [Spring Security Display Content based on Roles](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Security)
+54. [Spring Security Users and Roles from Database](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Security)

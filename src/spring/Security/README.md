@@ -35,6 +35,9 @@ To show a custom access denied page you have to add the method `.exceptionHandli
 
 To display content based on the role just simply use the tag: `<security:authorize access="hasRole('MANAGER')">` the String you give the `hasRole()` method as parameter is the role that gets to see the content between the opening and closing tag of `<security:authorize>`.
 
+To use a database as storage for your user and role credentials aou have to set up two tables: `users` and `authorities` in the `users` table you save the username as primary key, the password in the following scheme `{HASH_ALORITHM}PASSWORD` and a bool enabled. In the `authorities`  table you stare the username of the users table as foreign key and the authority in the scheme `ROLE_YOURROLE`. a example db scrip is at the end of the README.
+After setting up the database and inserting the users and roles you have to add a new bean to the DemoAppConfig that returns you the DataSource to the MySql connection. In the DemoSpringConfig you have to change the hardcoded users and roles to a new method `auth.jdbcAuthentication().dataSource(securityDataSource);` where auth is the Autowired new bean created in the DemoAppConfig. 
+
 Server: Apache Tomcat.
 
 Maven pom.xml
@@ -86,6 +89,19 @@ Maven pom.xml
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-taglibs</artifactId>
             <version>${springsecurity.version}</version>
+        </dependency>
+        
+        
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.13</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>com.mchange</groupId>
+            <artifactId>c3p0</artifactId>
+            <version>0.9.5.2</version>
         </dependency>
 
         <!-- Servlet, JSP and JSTL support -->
