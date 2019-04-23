@@ -3,7 +3,7 @@
 ---
 
 ## Spring Security
-
+#### 46./47./48.
 Here I'll show an example how to code a Spring Security Application.
 
 Just open "[ServerURL]/security/"
@@ -25,19 +25,26 @@ Additional we added the DemoSecurityConfig, the SecurityWebApplicationInitialize
 In a first step the username and password is hardcoded in the DemoSecurityConfig but later we will connect the login to a database with hashed passwords etc.
 Only if the user is correctly logged in he/she can see the company website.
 
+#### 49.
 **Note:** The Spring `<form:form>` tag automatically provides CSRF protection! If you want to use the standard HTML `<form>` take care to add the CSRF protection manually by adding: `<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" \>` to every login form!
 
+#### 50.
 To show the UserId and Role you have to add the "Spring Security Tag Library"(see pom.xml). With this library included to the jsp page you can access the UserId and Role with the tags: `<security:authentication property="principal.username"/>` for the User and `<security:authentication property="principal.authorities"/>` for the Role. 
 
+#### 51.
 To authorize special roles to special sections of the WebApp you have to use the `.antMatchers("/").hasRole("EMPLOYEE")` method in the SpringSecurityConfig when authorizing a request in the `configure` method. If you want to authorize multiple roles you can use the following method instead an give a list of comma separated roles: `.antMatchers("/system/").hasAnyRole("MANAGER", "ADMIN")`. The parameter of the antMatcher defines the URL-path you want to authorize a `/**` means "also all pages below the given page".
 
+#### 52.
 To show a custom access denied page you have to add the method `.exceptionHandling().accessDeniedPage("/accessDenied")` to your SpringSecurityConfig. the parameter given in the `accessDeniedPage` method is the page that get's displayed when no access is granted for a user and their role is not authorized to view a page. Care you have to create a ControllerMapping to route this page!
 
+#### 53.
 To display content based on the role just simply use the tag: `<security:authorize access="hasRole('MANAGER')">` the String you give the `hasRole()` method as parameter is the role that gets to see the content between the opening and closing tag of `<security:authorize>`.
 
+#### 54.
 To use a database as storage for your user and role credentials aou have to set up two tables: `users` and `authorities` in the `users` table you save the username as primary key, the password in the following scheme `{HASH_ALORITHM}PASSWORD` and a bool enabled. In the `authorities`  table you stare the username of the users table as foreign key and the authority in the scheme `ROLE_YOURROLE`. a example db scrip is at the end of the README.
 After setting up the database and inserting the users and roles you have to add a new bean to the DemoAppConfig that returns you the DataSource to the MySql connection. In the DemoSpringConfig you have to change the hardcoded users and roles to a new method `auth.jdbcAuthentication().dataSource(securityDataSource);` where auth is the Autowired new bean created in the DemoAppConfig. 
 
+#### 55.
 Passwords should never be stored in the database as plain text. To store passwords securely you have to hash them. Hashing is like a one way encryption function. To change your Spring App to use hashed passwords you simply have to change the hash algorithm of the password `{HASH_ALGORITHM}PASSWORD` for example `{bcrypt}$2a$04$rJS0kZYpSqJsIU285hF5yuagmnRsuSM5Fb9155kodqmrU5zRiLhLW`. Spring Security will automatically detect the used hashing algorithm and check the password with this algorithm. Be careful the database field has to be at least 68 chars long 8 for the hashing algorithm and 60 for the hashed password.
 
 Server: Apache Tomcat.
