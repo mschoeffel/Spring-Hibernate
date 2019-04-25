@@ -18,3 +18,7 @@ First there are some basics to convert a Java object into a json and vice versa.
 Jackson is a quite popular project for creating REST applications and serializing and deserializing objects.
 
 The class ConvertPojoJson shows how easy you can convert a POJO to a JSON and the other way round. When creating the JSON out of a POJO you have to care that the JSON file may be created in the target or out directory depending on your compiler.
+
+### 58.
+
+To don't get an exception if the JSON changes and get a new property you can simply add the annotation `@JsonIgnoreProperties(ignoreUnknown = true)` to the POJO class and so unknown properties, properties that exist in the JSON file but not in the POJO, will be ignored and no exception will be thrown.

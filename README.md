@@ -61,3 +61,4 @@ This is a repository where I go through all the basics of the Java frameworks Sp
 55. [Spring Security Password Hashing](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Security)
 56. [Spring REST POJO to JSON](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/REST)
 57. [Spring REST JSON to POJO](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/REST)
+58. [Spring REST Ignore JSON Properties](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/REST)

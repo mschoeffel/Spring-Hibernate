@@ -1,5 +1,6 @@
 package spring.REST;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Student {
 
     private int id;
