@@ -19,6 +19,93 @@ Jackson is a quite popular project for creating REST applications and serializin
 
 The class ConvertPojoJson shows how easy you can convert a POJO to a JSON and the other way round. When creating the JSON out of a POJO you have to care that the JSON file may be created in the target or out directory depending on your compiler.
 
-### 58.
+#### 58.
 
 To don't get an exception if the JSON changes and get a new property you can simply add the annotation `@JsonIgnoreProperties(ignoreUnknown = true)` to the POJO class and so unknown properties, properties that exist in the JSON file but not in the POJO, will be ignored and no exception will be thrown.
+
+#### 59.
+
+To set up a simple REST API (see `SimpleRestSetup` Folder ) you have to create a Spring web `@RestController` with RequestMappings and GetMappings and a standard Spring `@Configuration` in which you tell Spring to scan for components and a servlet initializer to get the rest servlet running. To run the code pretty simple use the pom.xml from below and create a Maven project. Care to set up the directories correctly and maybe fix the src root to scan for the components in the DemoAppConfig class. to run the servlet simply use the maven command `clean install jetty:run`. When the server started you can access the REST API with the URL `localhost:8080/test/hello`.
+
+
+pom.xml:
+```xml
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.myRest</groupId>
+	<artifactId>spring-rest-demo</artifactId>
+	<version>1.0</version>
+	<packaging>war</packaging>
+
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
+	<dependencies>
+
+		<!-- Add Spring MVC and REST support -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>5.1.6.RELEASE</version>
+		</dependency>
+		
+		<!-- Add Jackson for JSON converters -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.9.5</version>
+		</dependency>
+
+		<!-- Add Servlet support for 
+			 Spring's AbstractAnnotationConfigDispatcherServletInitializer -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+		</dependency>
+
+		<!-- Add support for JSP ... get rid of Eclipse error -->				 
+		<dependency>
+			<groupId>javax.servlet.jsp</groupId>
+			<artifactId>javax.servlet.jsp-api</artifactId>
+			<version>2.3.1</version>
+		</dependency>
+				 
+	</dependencies>
+
+	<!-- Support for Maven WAR Plugin -->
+
+	<build>
+		<finalName>spring-rest-demo</finalName>
+
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<!-- Add Maven coordinates (GAV) for: maven-war-plugin -->
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-war-plugin</artifactId>
+					<version>3.2.0</version>
+				</plugin>
+				<plugin>
+					<groupId>org.eclipse.jetty</groupId>
+					<artifactId>jetty-maven-plugin</artifactId>
+					<version>9.4.16.v20190411</version>
+					<configuration>
+						<scanIntervalSeconds>10</scanIntervalSeconds>
+					</configuration>
+				</plugin>
+
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-war-plugin</artifactId>
+					<version>3.2.0</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+</project>
+```

@@ -1,4 +1,4 @@
-package spring.REST;
+package spring.REST.JsonPojo;
 
 import java.io.File;
 import java.io.IOException;

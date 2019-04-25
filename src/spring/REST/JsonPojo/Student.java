@@ -1,4 +1,4 @@
-package spring.REST;
+package spring.REST.JsonPojo;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Student {
