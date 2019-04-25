@@ -25,7 +25,7 @@ To don't get an exception if the JSON changes and get a new property you can sim
 
 #### 59.
 
-To set up a simple REST API (see `SimpleRestSetup` Folder ) you have to create a Spring web `@RestController` with RequestMappings and GetMappings and a standard Spring `@Configuration` in which you tell Spring to scan for components and a servlet initializer to get the rest servlet running. To run the code pretty simple use the pom.xml from below and create a Maven project. Care to set up the directories correctly and maybe fix the src root to scan for the components in the DemoAppConfig class. to run the servlet simply use the maven command `clean install jetty:run`. When the server started you can access the REST API with the URL `localhost:8080/test/hello`.
+To set up a simple REST API (see `SimpleRestSetup` Folder ) you have to create a Spring web `@RestController` with RequestMappings and GetMappings and a standard Spring `@Configuration`. There you tell Spring where to scan for components. And set up a servlet initializer to get the rest servlet running. To run the code pretty simple use the pom.xml from below and create a Maven project. Care to set up the directories correctly and maybe fix the src root to scan for the components in the DemoAppConfig class. To run the servlet then simply use the maven command `clean install jetty:run`. When the server started you can access the REST API with the URL `localhost:8080/test/hello`.
 
 
 pom.xml:

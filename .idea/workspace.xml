@@ -6,19 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c92a05df-67e8-4299-8b32-b3894a075115" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/spring/REST/SimpleRestSetup/config/DemoAppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/REST/SimpleRestSetup/config/MySpringMvcDispatcherServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/REST/SimpleRestSetup/rest/DemoRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.SynologyWorkingDirectory/9qSGfgB3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.SynologyWorkingDirectory/Ir_ys87v" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.SynologyWorkingDirectory/fG6mNe2a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/REST/ConverterPojoJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/REST/JsonPojo/ConverterPojoJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/REST/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/REST/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/REST/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/REST/JsonPojo/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/REST/resources/sample.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/REST/JsonPojo/resources/sample.json" afterDir="false" />
-    </list>
+    <list default="true" id="c92a05df-67e8-4299-8b32-b3894a075115" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,12 +19,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="566">
-                <caret line="48" column="113" selection-start-line="48" selection-start-column="113" selection-end-line="48" selection-end-column="113" />
+              <first_editor relative-caret-position="598">
+                <caret line="50" column="90" selection-start-line="50" selection-start-column="90" selection-end-line="50" selection-end-column="90" />
               </first_editor>
               <second_editor />
             </state>
@@ -64,18 +52,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/spring/REST/SimpleRestSetup/rest/DemoRestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
+            <state relative-caret-position="207">
               <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/spring/REST/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="621">
-                <caret line="27" column="667" selection-start-line="27" selection-start-column="667" selection-end-line="27" selection-end-column="667" />
+              <first_editor relative-caret-position="414">
+                <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -85,8 +76,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/spring/REST/SimpleRestSetup/config/DemoAppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="184">
+              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -192,12 +186,12 @@
         <option value="$PROJECT_DIR$/src/spring/REST/resources/sample.json" />
         <option value="$PROJECT_DIR$/src/spring/REST/ConverterPojoJson.java" />
         <option value="$PROJECT_DIR$/src/spring/REST/Student.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/spring/REST/JsonPojo/ConverterPojoJson.java" />
         <option value="$PROJECT_DIR$/src/spring/REST/SimpleRestSetup/MySpringMvcDispatcherServletInitializer.java" />
         <option value="$PROJECT_DIR$/src/spring/REST/SimpleRestSetup/config/MySpringMvcDispatcherServletInitializer.java" />
         <option value="$PROJECT_DIR$/src/spring/REST/SimpleRestSetup/config/DemoAppConfig.java" />
         <option value="$PROJECT_DIR$/src/spring/REST/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -310,7 +304,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556210636460" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556210806873" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -556,16 +550,15 @@
       <workItem from="1556035459897" duration="1800000" />
       <workItem from="1556123812255" duration="2904000" />
       <workItem from="1556207038573" duration="2340000" />
-      <workItem from="1556209886024" duration="664000" />
+      <workItem from="1556209886024" duration="919000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109728000" />
+    <option name="totallyTimeSpent" value="109983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49950835" visible="true" weight="0.13965885" />
       <window_info id="Structure" order="1" sideWeight="0.5004916" side_tool="true" weight="0.18123667" />
@@ -879,11 +872,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/spring/REST/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="566">
-            <caret line="48" column="113" selection-start-line="48" selection-start-column="113" selection-end-line="48" selection-end-column="113" />
+          <first_editor relative-caret-position="414">
+            <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
           </first_editor>
           <second_editor />
         </state>
@@ -891,15 +884,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/REST/SimpleRestSetup/rest/DemoRestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
+        <state relative-caret-position="207">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/REST/SimpleRestSetup/config/DemoAppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -910,11 +899,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/REST/README.md">
+    <entry file="file://$PROJECT_DIR$/src/spring/REST/SimpleRestSetup/config/DemoAppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="621">
-            <caret line="27" column="667" selection-start-line="27" selection-start-column="667" selection-end-line="27" selection-end-column="667" />
+          <first_editor relative-caret-position="598">
+            <caret line="50" column="90" selection-start-line="50" selection-start-column="90" selection-end-line="50" selection-end-column="90" />
           </first_editor>
           <second_editor />
         </state>
