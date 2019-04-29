@@ -1,9 +1,9 @@
 package spring.REST.SimplePojoJsonRestSetup.rest;
 
-import com.luv2code.springdemo.model.Student;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import spring.REST.SimplePojoJsonRestSetup.model.Student;
 
 import java.util.ArrayList;
 import java.util.List;

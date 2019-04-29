@@ -7,7 +7,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("com.luv2code.springdemo")
+@ComponentScan("spring.REST.SimplePojoJsonRestSetup")
 public class DemoAppConfig implements WebMvcConfigurer {
 
 }

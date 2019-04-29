@@ -31,7 +31,7 @@ If you want to get a page displayed when you call the blank URL `localhost:8080`
 
 #### 60.
 
-In the `SimplePojoJsonRestSetup` directory is a simple setup for a REST service, that returns a Json string automatically generated from Pojo via Jenkins. Spring REST and Jenkins will do this automatically when you want to return a Object as REST Service. To get it working just use the pom.xml from below to build a Maven project and copy the folder. Maybe you have to mark some directories as source and then just call `localhost:8080/api/students` and you will get a Json string containing all three student objects.
+In the `SimplePojoJsonRestSetup` directory is a simple setup for a REST service, that returns a Json string automatically generated from Pojo via Jenkins. Spring REST and Jenkins will do this automatically when you want to return a Object as REST Service. To get it working just use the pom.xml from below to build a Maven project and copy the folder. Maybe you have to mark some directories and change the `DemoAppConfig` component scan package and then just call `localhost:8080/api/students` and you will get a Json string containing all three student objects.
 
 pom.xml:
 ```xml
