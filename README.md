@@ -63,3 +63,4 @@ This is a repository where I go through all the basics of the Java frameworks Sp
 57. [Spring REST JSON to POJO](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/REST)
 58. [Spring REST Ignore JSON Properties](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/REST)
 59. [Spring REST simple API](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/REST)
+60. [Spring REST simple Pojo Json API](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/REST)

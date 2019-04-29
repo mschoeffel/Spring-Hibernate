@@ -6,7 +6,7 @@
 Here I'll show an example how to code a Spring REST Application.
 
 #### 56. / 57.
-First there are some basics to convert a Java object into a json and vice versa. First you have to set up a new project and copy the classes and folders from this directory. I used Maven so therefore you need the following Maven pom.xml dependency to get the code working for you (also take care to mark the resources directory as resources):
+First there are some basics to convert a Java object into a json and vice versa. First you have to set up a new project and copy the classes and the necessary folder from this directory. I used Maven so therefore you need the following Maven pom.xml dependency to get the code working for you (also take care to mark the resources directory as resources):
 ```xml
 <dependency>
     <groupId>com.fasterxml.jackson.core</groupId>
@@ -29,6 +29,9 @@ To set up a simple REST API (see `SimpleRestSetup` Folder ) you have to create a
 
 If you want to get a page displayed when you call the blank URL `localhost:8080` you can simply create a folder called `webapp` in the src directory and put there an index.jsp file. Apache will automatically show this page as startpage if you enter the URL; so you dont get a 404 error displayed if you call the blank URL.
 
+#### 60.
+
+In the `SimplePojoJsonRestSetup` directory is a simple setup for a REST service, that returns a Json string automatically generated from Pojo via Jenkins. Spring REST and Jenkins will do this automatically when you want to return a Object as REST Service. To get it working just use the pom.xml from below to build a Maven project and copy the folder. Maybe you have to mark some directories as source and then just call `localhost:8080/api/students` and you will get a Json string containing all three student objects.
 
 pom.xml:
 ```xml
