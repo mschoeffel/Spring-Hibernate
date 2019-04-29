@@ -33,6 +33,10 @@ If you want to get a page displayed when you call the blank URL `localhost:8080`
 
 In the `SimplePojoJsonRestSetup` directory is a simple setup for a REST service, that returns a Json string automatically generated from Pojo via Jenkins. Spring REST and Jenkins will do this automatically when you want to return a Object as REST Service. To get it working just use the pom.xml from below to build a Maven project and copy the folder. Maybe you have to mark some directories and change the `DemoAppConfig` component scan package and then just call `localhost:8080/api/students` and you will get a Json string containing all three student objects.
 
+#### 61.
+
+If you want to get a specific student see eht folder `PathVariableRest` there you can add to the URL `localhost:8080/api/student/` an ID at the end and the REST controller will read this PathVariable and bind it as parameter to the controller method so there you can work with it and return a specific student. Care the variable name given in the `@GetMapping` annotation needs to be the same as the parameter name at the `PathVariable` annotation by default. 
+
 pom.xml:
 ```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
