@@ -37,6 +37,11 @@ In the `SimplePojoJsonRestSetup` directory is a simple setup for a REST service,
 
 If you want to get a specific student see eht folder `PathVariableRest` there you can add to the URL `localhost:8080/api/student/` an ID at the end and the REST controller will read this PathVariable and bind it as parameter to the controller method so there you can work with it and return a specific student. Care the variable name given in the `@GetMapping` annotation needs to be the same as the parameter name at the `PathVariable` annotation by default. 
 
+#### 62.
+
+The directory `FancyRestAll` just contains everything from above just a little bit fancier and in a way more cleaner coding style.
+
+
 pom.xml:
 ```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
