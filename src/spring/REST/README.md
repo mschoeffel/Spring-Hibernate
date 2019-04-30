@@ -41,6 +41,11 @@ If you want to get a specific student see eht folder `PathVariableRest` there yo
 
 The directory `FancyRestAll` just contains everything from above just a little bit fancier and in a way more cleaner coding style.
 
+#### 63.
+
+If we enter an invalid Id in the examples above we get a 404 error Html page. This page can display critical information about our REST system.\
+So we want to create a custom error handling to send back a JSON, that contains error information, when trying to access a invalid Id. Therefore we use the annotation `@ExceptionHandler` to define a method that gets called when an exception, defined in the parameter, is thrown. This method creates a response object `StudentErrorResponse` that gets sent back to the client. So to achieve custom exception handling we just needed to create a custom exception object, response object and define an custom exception handler. The response object will again automatically converted to a JSON string when returned to the HTTP request.\
+The solution is given in the `CustomException` directory.  
 
 pom.xml:
 ```xml
