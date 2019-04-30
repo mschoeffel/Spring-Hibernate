@@ -47,6 +47,12 @@ If we enter an invalid Id in the examples above we get a 404 error Html page. Th
 So we want to create a custom error handling to send back a JSON, that contains error information, when trying to access a invalid Id. Therefore we use the annotation `@ExceptionHandler` to define a method that gets called when an exception, defined in the parameter, is thrown. This method creates a response object `StudentErrorResponse` that gets sent back to the client. So to achieve custom exception handling we just needed to create a custom exception object, response object and define an custom exception handler. The response object will again automatically converted to a JSON string when returned to the HTTP request.\
 The solution is given in the `CustomException` directory.  
 
+#### 64.
+
+If you want to create an exception handler that catches all exception you can simply modify the exception handler from the example above and use the class `Exception` as parameter of the exception handler method instead of the specific `StudentNotFound`.\
+You can also create both and when a specific exception is thrown the most specific handler will catch this exception and respond to it. (A "catch all" exception handler is also given in the directory `CustomException`)\
+One thing you have to keep in mind: Change the HTTP statuscode to something more general, like BAD_REQUEST.
+
 pom.xml:
 ```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"

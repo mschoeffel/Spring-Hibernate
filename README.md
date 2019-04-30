@@ -67,3 +67,4 @@ This is a repository where I go through all the basics of the Java frameworks Sp
 61. [Spring REST Path Variable](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/REST)
 62. [Spring REST All together fancy](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/REST)
 63. [Spring REST Exception Handling](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/REST)
+64. [Spring REST Catch All Exceptions](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/REST)

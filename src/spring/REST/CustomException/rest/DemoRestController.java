@@ -33,6 +33,14 @@ public class DemoRestController {
 		return new ResponseEntity<>(response, HttpStatus.NOT_FOUND);
 	}
 
+	//Catch All Exception Handler (see 64)
+	@ExceptionHandler
+	public ResponseEntity<StudentErrorResponse> handleException(Exception e){
+		StudentErrorResponse response = new StudentErrorResponse(HttpStatus.BAD_REQUEST.value(), e.getMessage(), System.currentTimeMillis());
+
+		return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
+	}
+
 	@GetMapping("/student/{studentId}")
 	public Student getStudents(@PathVariable int studentId) {
 
