@@ -53,6 +53,11 @@ If you want to create an exception handler that catches all exception you can si
 You can also create both and when a specific exception is thrown the most specific handler will catch this exception and respond to it. (A "catch all" exception handler is also given in the directory `CustomException`)\
 One thing you have to keep in mind: Change the HTTP statuscode to something more general, like BAD_REQUEST.
 
+#### 65.
+
+If you want to create a global exception handler, which is better in most cases, cou simply make use of AOP directory: `GlobalException` (see later topics). There you can create a class `StudentExceptionHandler` and give it the annotation `@ControllerAdvice`. This annotation will make the class known for all the controllers and all controllers can make use of this class and the methods defined in it.?
+So this way we created a globally known exception handler class that will handle all the exceptions thrown by any REST controller of the project.
+
 pom.xml:
 ```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
