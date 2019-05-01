@@ -7,20 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c92a05df-67e8-4299-8b32-b3894a075115" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/spring/REST/AuthorisationREST/config/DemoAppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/REST/AuthorisationREST/config/DemoSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/REST/AuthorisationREST/config/MySpringMvcDispatcherServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/REST/AuthorisationREST/config/SecurityWebApplicationInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/REST/AuthorisationREST/error/StudentErrorExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/REST/AuthorisationREST/error/StudentErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/REST/AuthorisationREST/error/StudentNotFound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/REST/AuthorisationREST/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/REST/AuthorisationREST/rest/DemoRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/REST/CustomException/config/DemoAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/REST/CustomException/config/DemoAppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/REST/FancyRestAll/config/DemoAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/REST/FancyRestAll/config/DemoAppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/REST/GlobalException/config/DemoAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/REST/GlobalException/config/DemoAppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/REST/PathVariableRest/config/DemoAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/REST/PathVariableRest/config/DemoAppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spring/REST/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/REST/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,19 +23,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/REST/AuthorisationREST/config/DemoSecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="837">
+                <caret line="71" column="2" selection-start-line="71" selection-start-column="2" selection-end-line="71" selection-end-column="2" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/REST/AuthorisationREST/error/StudentErrorExceptionHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/spring/REST/AuthorisationREST/config/DemoSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="161">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -61,6 +52,18 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/spring/REST/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="299">
+                <caret line="62" column="362" selection-start-line="62" selection-start-column="362" selection-end-line="62" selection-end-column="362" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/spring/REST/PathVariableRest/config/DemoAppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -70,7 +73,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/spring/REST/SimpleRestSetup/config/DemoAppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="299">
@@ -105,15 +108,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
               <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/REST/AuthorisationREST/error/StudentErrorResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -186,11 +180,9 @@
         <option value="$PROJECT_DIR$/src/spring/REST/FancyRestAll/rest/DemoRestController.java" />
         <option value="$PROJECT_DIR$/src/spring/REST/CustomException/error/StudentNotFound.java" />
         <option value="$PROJECT_DIR$/src/spring/REST/CustomException/config/MySpringMvcDispatcherServletInitializer.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/spring/REST/GlobalException/rest/DemoRestController.java" />
         <option value="$PROJECT_DIR$/src/spring/REST/CustomException/error/StudentErrorExceptionHandler.java" />
         <option value="$PROJECT_DIR$/src/spring/REST/CustomException/rest/DemoRestController.java" />
-        <option value="$PROJECT_DIR$/src/spring/REST/README.md" />
         <option value="$PROJECT_DIR$/src/spring/REST/AuthorisationREST/config/MySpringMvcDispatcherServletInitializer.java" />
         <option value="$PROJECT_DIR$/src/spring/REST/AuthorisationREST/config/DemoAppConfig.java" />
         <option value="$PROJECT_DIR$/src/spring/REST/AuthorisationREST/rest/DemoRestController.java" />
@@ -198,6 +190,8 @@
         <option value="$PROJECT_DIR$/src/spring/REST/FancyRestAll/config/DemoAppConfig.java" />
         <option value="$PROJECT_DIR$/src/spring/REST/GlobalException/config/DemoAppConfig.java" />
         <option value="$PROJECT_DIR$/src/spring/REST/PathVariableRest/config/DemoAppConfig.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/spring/REST/README.md" />
       </list>
     </option>
   </component>
@@ -208,7 +202,7 @@
     <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1167" />
@@ -262,33 +256,6 @@
               <item name="REST" type="462c0819:PsiDirectoryNode" />
               <item name="AuthorisationREST" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="REST" type="462c0819:PsiDirectoryNode" />
-              <item name="AuthorisationREST" type="462c0819:PsiDirectoryNode" />
-              <item name="error" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="REST" type="462c0819:PsiDirectoryNode" />
-              <item name="AuthorisationREST" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="REST" type="462c0819:PsiDirectoryNode" />
-              <item name="AuthorisationREST" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Spring-Hibernate" type="b2602c69:ProjectViewProjectNode" />
@@ -361,7 +328,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556747845636" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556747846875" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -371,24 +338,24 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Shared\Spring-Hibernate\lib" />
-      <recent name="D:\Shared\Spring-Hibernate\src" />
-      <recent name="D:\Shared\Spring-Hibernate\out\production\Spring-Hibernate" />
-      <recent name="D:\Shared\Spring-Hibernate" />
-      <recent name="D:\Shared\Spring-Hibernate\src\resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Shared\Spring-Hibernate\src\spring\REST\AuthorisationREST" />
+      <recent name="D:\Shared\Spring-Hibernate\src\spring\REST\GlobalException" />
+      <recent name="D:\Shared\Spring-Hibernate\src\spring\REST\CustomException" />
+      <recent name="D:\Shared\Spring-Hibernate\src\spring\REST\FancyRestAll" />
+      <recent name="D:\Shared\Spring-Hibernate\src\spring\REST\PathVariableRest" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="spring.REST.CustomException.error" />
       <recent name="spring.Hibernate.ManyToMany" />
       <recent name="spring.Hibernate.LazyLoading" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Shared\Spring-Hibernate\src\spring\REST\GlobalException" />
-      <recent name="D:\Shared\Spring-Hibernate\src\spring\REST\CustomException" />
-      <recent name="D:\Shared\Spring-Hibernate\src\spring\REST\FancyRestAll" />
-      <recent name="D:\Shared\Spring-Hibernate\src\spring\REST\PathVariableRest" />
-      <recent name="D:\Shared\Spring-Hibernate\src\spring\REST" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Shared\Spring-Hibernate\lib" />
+      <recent name="D:\Shared\Spring-Hibernate\src" />
+      <recent name="D:\Shared\Spring-Hibernate\out\production\Spring-Hibernate" />
+      <recent name="D:\Shared\Spring-Hibernate" />
+      <recent name="D:\Shared\Spring-Hibernate\src\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -612,15 +579,16 @@
       <workItem from="1556552906011" duration="3227000" />
       <workItem from="1556638546970" duration="2470000" />
       <workItem from="1556704575553" duration="1325000" />
-      <workItem from="1556745853993" duration="1814000" />
+      <workItem from="1556745853993" duration="2089000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119834000" />
+    <option name="totallyTimeSpent" value="120109000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49950835" visible="true" weight="0.14605543" />
       <window_info id="Structure" order="1" sideWeight="0.5004916" side_tool="true" weight="0.18123667" />
@@ -776,16 +744,6 @@
     <entry file="file://$PROJECT_DIR$/src/spring/REST/CustomException/error/StudentNotFound.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1610">
-            <caret line="70" column="2" selection-start-line="70" selection-start-column="2" selection-end-line="70" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/REST/GlobalException/error/StudentErrorResponse.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -809,16 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/REST/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="207">
-            <caret line="58" column="144" selection-start-line="58" selection-start-column="144" selection-end-line="58" selection-end-column="144" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -930,27 +878,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/REST/AuthorisationREST/config/MySpringMvcDispatcherServletInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/REST/AuthorisationREST/config/DemoSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/REST/AuthorisationREST/config/DemoAppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/REST/CustomException/config/DemoAppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -986,6 +913,47 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="837">
+            <caret line="71" column="2" selection-start-line="71" selection-start-column="2" selection-end-line="71" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/REST/AuthorisationREST/config/DemoAppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/REST/AuthorisationREST/config/DemoSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/REST/AuthorisationREST/config/MySpringMvcDispatcherServletInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/REST/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="299">
+            <caret line="62" column="362" selection-start-line="62" selection-start-column="362" selection-end-line="62" selection-end-column="362" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

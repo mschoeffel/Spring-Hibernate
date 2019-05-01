@@ -69,3 +69,4 @@ This is a repository where I go through all the basics of the Java frameworks Sp
 63. [Spring REST Exception Handling](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/REST)
 64. [Spring REST Catch All Exceptions](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/REST)
 65. [Spring REST Global Exception Handler](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/REST)
+66. [Spring REST Security Authorisation](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/REST)

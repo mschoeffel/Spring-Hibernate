@@ -58,6 +58,10 @@ One thing you have to keep in mind: Change the HTTP statuscode to something more
 If you want to create a global exception handler, which is better in most cases, cou simply make use of AOP directory: `GlobalException` (see later topics). There you can create a class `StudentExceptionHandler` and give it the annotation `@ControllerAdvice`. This annotation will make the class known for all the controllers and all controllers can make use of this class and the methods defined in it.?
 So this way we created a globally known exception handler class that will handle all the exceptions thrown by any REST controller of the project.
 
+#### 66.
+
+If you wand to make your REST API secure you can simply make use of the spring security. See `AuthorisationREST` directory. Just add the the `DemoSecurityConfig` class and the spring security maven dependency. There you can define, the same way as described in the `Spring Security` section, what user got what role and what permissions to access different APIs. 
+
 pom.xml:
 ```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
