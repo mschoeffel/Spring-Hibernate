@@ -8,6 +8,7 @@ Spring Boot makes it very easy to create a full spring project with all needed d
 For every topic you'll find a directory that contains all the needed files like the java classes, the properties and the pom file.
 
 #### 67.
+`FirstSetup` directory:\
 Spring Boot uses the directory structure of Maven.\
 So in the `main/java` directory all your java classes have to be created.\
 The `main/resources` directory contains all resources of your project like static content like JS files or CSS files or property files.\
@@ -15,4 +16,7 @@ The last important directory is the `test` directory inside of this directory al
 
 You may wonder what these mvnw... files are for: These files are Maven Wrapper files and can be used to run a maven project without the need of maven installed on the local machine. It will check if a valid maven version is installed and if not it will automatically download and install one and run it.\
 mvnw.cmd is for Windows machines.\
-mvn ist for Linux/ Mac machines.
+mvn ist for Linux/ Mac machines.\
+If you have Maven already installed on your PC you can simply ignore or delete these files.
+
+The `application.properties` file is the auto properties file of the Spring Boot application. There you can set up properties either for the application itself like changing the webserver port or you can simply define custom properties and read them with injection like `@Value("${my.testMsg}")`. An example is in the directory.

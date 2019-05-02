@@ -7,10 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c92a05df-67e8-4299-8b32-b3894a075115" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/spring/SpringBoot/FirstSetup/demo/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/SpringBoot/FirstSetup/demo/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/SpringBoot/FirstSetup/demo/src/main/java/com/example/demo/rest/RestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/SpringBoot/FirstSetup/demo/src/main/java/com/example/demo/rest/MyRestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/spring/SpringBoot/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/SpringBoot/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -55,8 +51,8 @@
         <entry file="file://$PROJECT_DIR$/src/spring/SpringBoot/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="345">
-                <caret line="15" column="181" selection-start-line="15" selection-start-column="181" selection-end-line="15" selection-end-column="181" />
+              <first_editor relative-caret-position="276">
+                <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               </first_editor>
               <second_editor />
             </state>
@@ -328,7 +324,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556794327402" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556795180218" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -580,18 +576,18 @@
       <workItem from="1556638546970" duration="2470000" />
       <workItem from="1556704575553" duration="1325000" />
       <workItem from="1556745853993" duration="3995000" />
-      <workItem from="1556792803148" duration="1410000" />
+      <workItem from="1556792803148" duration="2371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123425000" />
+    <option name="totallyTimeSpent" value="124386000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1167" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49950835" visible="true" weight="0.22014925" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49950835" visible="true" weight="0.45185995" />
       <window_info id="Structure" order="1" sideWeight="0.5004916" side_tool="true" weight="0.18123667" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" side_tool="true" />
@@ -974,8 +970,8 @@
     <entry file="file://$PROJECT_DIR$/src/spring/SpringBoot/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="345">
-            <caret line="15" column="181" selection-start-line="15" selection-start-column="181" selection-end-line="15" selection-end-column="181" />
+          <first_editor relative-caret-position="276">
+            <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           </first_editor>
           <second_editor />
         </state>
