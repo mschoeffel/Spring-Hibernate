@@ -20,3 +20,16 @@ mvn ist for Linux/ Mac machines.\
 If you have Maven already installed on your PC you can simply ignore or delete these files.
 
 The `application.properties` file is the auto properties file of the Spring Boot application. There you can set up properties either for the application itself like changing the webserver port or you can simply define custom properties and read them with injection like `@Value("${my.testMsg}")`. An example is in the directory.
+
+#### 68.
+
+A great extension are the spring boot dev tools. You can simply include these in your project with the following maven dependency:
+
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-devtools</artifactId>
+</dependency>
+```
+
+This simple extension allows you to be more productive when programming spring boot applications, because for example there is no need anymore to recompile your whole application everytime you change the code. The devtool extension will automatically compile and restart theapplication whenever you make changes on the code. 
