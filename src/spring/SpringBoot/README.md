@@ -32,4 +32,4 @@ A great extension are the spring boot dev tools. You can simply include these in
 </dependency>
 ```
 
-This simple extension allows you to be more productive when programming spring boot applications, because for example there is no need anymore to recompile your whole application everytime you change the code. The devtool extension will automatically compile and restart theapplication whenever you make changes on the code. 
+This simple extension allows you to be more productive when programming spring boot applications, because for example there is no need anymore to recompile your whole application everytime you change the code. The devtool extension will automatically compile and restart the application whenever you make changes on the code. 
