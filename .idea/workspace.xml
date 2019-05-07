@@ -25,8 +25,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="837">
-                <caret line="73" column="2" selection-start-line="73" selection-start-column="2" selection-end-line="73" selection-end-column="2" />
+              <first_editor relative-caret-position="860">
+                <caret line="74" column="40" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
               </first_editor>
               <second_editor />
             </state>
@@ -51,8 +51,8 @@
         <entry file="file://$PROJECT_DIR$/src/spring/SpringBoot/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="782">
-                <caret line="34" column="275" selection-start-line="34" selection-start-column="275" selection-end-line="34" selection-end-column="275" />
+              <first_editor relative-caret-position="860">
+                <caret line="75" column="17" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
               </first_editor>
               <second_editor />
             </state>
@@ -644,12 +644,12 @@
       <workItem from="1556704575553" duration="1325000" />
       <workItem from="1556745853993" duration="3995000" />
       <workItem from="1556792803148" duration="2885000" />
-      <workItem from="1557255782148" duration="531000" />
+      <workItem from="1557255782148" duration="1581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125431000" />
+    <option name="totallyTimeSpent" value="126481000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -1028,8 +1028,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="837">
-            <caret line="73" column="2" selection-start-line="73" selection-start-column="2" selection-end-line="73" selection-end-column="2" />
+          <first_editor relative-caret-position="860">
+            <caret line="74" column="40" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
           </first_editor>
           <second_editor />
         </state>
@@ -1038,8 +1038,8 @@
     <entry file="file://$PROJECT_DIR$/src/spring/SpringBoot/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="782">
-            <caret line="34" column="275" selection-start-line="34" selection-start-column="275" selection-end-line="34" selection-end-column="275" />
+          <first_editor relative-caret-position="860">
+            <caret line="75" column="17" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
           </first_editor>
           <second_editor />
         </state>
