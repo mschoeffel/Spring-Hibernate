@@ -74,3 +74,30 @@ management.endpoints.web.exposure.include=*
 ```
 
 Security is described later because such sensitive information about a application shouldn't be that open. 
+
+#### 70.
+
+To secure your spring boot actuator pages you have to add the spring security dependency to your pom file:
+
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-security</artifactId>
+</dependency>
+```
+
+After adding the dependency whenever you try to call an actuator endpoint spring will display a login form.
+The default login is `user` and the password gets shown when starting the app in the console log. There have to be something like: `Using generated security password: [SOME GUID]` and the GUID is the password.
+
+If you don't want to use the default credentials yo can add the following two lines to your `application.properties`:
+```properties
+spring.security.user.name=TheUsernameYouWant
+spring.security.user.password=ThePasswordYouWant
+```
+
+But if you want more advanced login stuff like database user and password you can do this like the normal Spring Security and authorize the `auctuator/**` route.
+
+If you want some pages not to get displayed you can achieve it by adding the following line to your `application.properties`:
+```properties
+management.endpoints.web.exposure.exclude=CommaSeparatedPages,OtherPage
+```
