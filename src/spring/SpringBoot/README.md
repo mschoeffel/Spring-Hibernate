@@ -101,3 +101,11 @@ If you want some pages not to get displayed you can achieve it by adding the fol
 ```properties
 management.endpoints.web.exposure.exclude=CommaSeparatedPages,OtherPage
 ```
+
+#### 71.
+
+To run the application with the command line you got two options:
+First you can run it with the `java -jar` command plus the name of the jar file. Like `java -jar myApp.jar`. **Care:** You have to be in the same directory with your command line as the jar is stored otherwise you have to either navigate with the command tool there or add the path to the jar name.
+Second you can run it with the Maven command `mvnw spring-boot:run`. Be careful Maven has to be installed on the device you want to run the app from. You can simply install Maven using the wrapper executables that came with the spring boot project structure (see point 67.)
+With the command `mvnw package` you can create the jar file easily. Like above cae to be in the right directory. This time your project directory.
+The jar file is created in the `target` sub-directory!

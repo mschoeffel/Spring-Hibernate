@@ -74,3 +74,4 @@ This is a repository where I go through all the basics of the Java frameworks Sp
 68. [Spring Boot Dev Tools](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/SpringBoot)
 69. [Spring Boot Actuator](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/SpringBoot)
 70. [Spring Boot Actuator Security](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/SpringBoot)
+71. [Spring Boot Run from Command-line](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/SpringBoot)
