@@ -132,3 +132,13 @@ class:
     private String myProperty;
 ...
 ```
+
+#### 73.
+
+With the `application.properties` file you can configure the Spring Boot server. So for example there are over 1000 properties you can set to configure the application. They are roughly divided in eight groups: Core, Web, Security, Data, Actuator, Integration, DevTools and Testing.\
+In the Core are for example properties like logging levels.\
+In the Web are for example Port configurations, session timeouts and the context path.\
+The Actuator properties we've already seen.\
+The Security properties we've also already seen.\
+In the Data are for examples properties used to connect to a database or to configure transaction timeouts.\
+...
