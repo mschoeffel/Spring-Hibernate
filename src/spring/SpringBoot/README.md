@@ -114,3 +114,21 @@ Be careful Maven has to be installed on the device you want to run the app from.
 
 With the command `mvnw package` you can create the jar file easily. Like above cae to be in the right directory. This time your project directory.\
 The jar file is created in the `target` sub-directory!
+
+#### 72.
+
+To create your own properties you can simply make use of the already existing `application.properties` file.\
+Just add your own properties there. To get the value from the property you can use the `@Value` annotation and spring will automatically inject the value of the properties file to your variable.
+
+application.properties:
+```properties
+my.new.property=SuperValue
+```
+
+class:
+```java
+...
+    @Value("${my.new.property}")
+    private String myProperty;
+...
+```
