@@ -12,7 +12,7 @@ import javax.sql.DataSource;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages="com.luv2code.springsecurity.demo")
+@ComponentScan(basePackages="com.luv2code.springsecurity.FirstSetup")
 public class DemoAppConfig {
 
 	@Bean

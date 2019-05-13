@@ -1,4 +1,4 @@
-package spring.Thymeleaf.demo.src.main.java.com.example.demo;
+package spring.Thymeleaf.CSSExample.src.main.java.com.example.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

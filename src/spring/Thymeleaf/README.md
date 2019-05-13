@@ -11,3 +11,17 @@ Some non-web environments can be: E-Mail templates, CSV templates or creating a 
 
 In the `FirstSetup` folder is the first little setup making use of Thymeleaf. It contains everything needed for a first Thymeleaf application.\
 A `DemoController` is setup do direct the URL to the right HTML file in the "resources/templates" folder. The `helloworld.html` there uses Thymeleaf to display the information given by the model from the controller.
+
+You can simply add Thymeleaf to your project using the dependency:
+```xml
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-thymeleaf</artifactId>
+</dependency>
+```
+
+#### 75.
+
+In Thymeleaf you can simply add static CSS to your HTML pages.\
+To reference a local CSS file just create a CSS file in the "resources/static" folder. Afterwards link the HTML page to your CSS using Thymeleaf linking: `<link rel="stylesheet" th:href="@{/SubfolderOfStatic/NameOfYourCSS.css}" />`. Now you can make use of the whole CSS file you have created.\
+If you want to make use of a remote CSS file you can just link them with the normal HTML `href` tag and URL of your remote CSS.
