@@ -1,4 +1,4 @@
-package spring.Thymeleaf.demo.src.main.java.com.example.demo.controller;
+package spring.Thymeleaf.FirstSetup.src.main.java.com.example.demo.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

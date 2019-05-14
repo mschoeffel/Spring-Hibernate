@@ -22,6 +22,23 @@ You can simply add Thymeleaf to your project using the dependency:
 
 #### 75.
 
+(See `CSSExample` directory)\
 In Thymeleaf you can simply add static CSS to your HTML pages.\
 To reference a local CSS file just create a CSS file in the "resources/static" folder. Afterwards link the HTML page to your CSS using Thymeleaf linking: `<link rel="stylesheet" th:href="@{/SubfolderOfStatic/NameOfYourCSS.css}" />`. Now you can make use of the whole CSS file you have created.\
 If you want to make use of a remote CSS file you can just link them with the normal HTML `href` tag and URL of your remote CSS.
+
+#### 76.
+
+(See `TableExample` directory)\
+To create a datatable you can use the `th:each` attribute. within the attribute value you can set a temporary object, which represents every table row from a list of objects. Inside of the table you now access only the temporary object and call the data of this.\
+So you get the following construct to display employees out of a list called data from the model:
+
+```html
+<tbody>
+    <tr th:each="tempEmp : ${data}">
+        <td th:text="${tempEmp.firstName}"></td>
+        <td th:text="${tempEmp.lastName}"></td>
+        <td th:text="${tempEmp.email}"></td>
+    </tr>
+</tbody>
+```

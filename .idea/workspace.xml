@@ -7,29 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c92a05df-67e8-4299-8b32-b3894a075115" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/spring/Thymeleaf/CSSExample/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/Thymeleaf/CSSExample/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/Thymeleaf/CSSExample/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/Thymeleaf/CSSExample/src/main/java/com/example/demo/controller/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/Thymeleaf/CSSExample/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/Thymeleaf/CSSExample/src/main/resources/static/css/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/Thymeleaf/CSSExample/src/main/resources/templates/helloworld.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/Thymeleaf/FirstSetup/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/Thymeleaf/FirstSetup/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/Thymeleaf/FirstSetup/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/Thymeleaf/TableExample/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/Thymeleaf/TableExample/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/Thymeleaf/TableExample/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/Thymeleaf/TableExample/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/Thymeleaf/TableExample/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/Thymeleaf/TableExample/src/main/java/com/example/demo/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/Thymeleaf/TableExample/src/main/java/com/example/demo/models/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/Thymeleaf/TableExample/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/Thymeleaf/TableExample/src/main/resources/static/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/Thymeleaf/TableExample/src/main/resources/templates/list-employees.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/Security/config/DemoAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/Security/config/DemoAppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/Security/config/DemoSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/Security/config/DemoSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spring/Thymeleaf/CSSExample/src/main/java/com/example/demo/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/Thymeleaf/CSSExample/src/main/java/com/example/demo/controller/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spring/Thymeleaf/FirstSetup/src/main/java/com/example/demo/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/Thymeleaf/FirstSetup/src/main/java/com/example/demo/controller/DemoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/spring/Thymeleaf/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/Thymeleaf/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/Thymeleaf/demo/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/Thymeleaf/FirstSetup/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/Thymeleaf/demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/Thymeleaf/CSSExample/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/Thymeleaf/demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/Thymeleaf/CSSExample/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/Thymeleaf/demo/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/Thymeleaf/FirstSetup/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/Thymeleaf/demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/Thymeleaf/FirstSetup/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/Thymeleaf/demo/src/main/java/com/example/demo/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/Thymeleaf/FirstSetup/src/main/java/com/example/demo/controller/DemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/Thymeleaf/demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/Thymeleaf/FirstSetup/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/Thymeleaf/demo/src/main/resources/templates/helloworld.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/Thymeleaf/FirstSetup/src/main/resources/templates/helloworld.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,23 +35,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="837">
-                <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/spring/Thymeleaf/TableExample/src/main/java/com/example/demo/models/Employee.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/spring/Thymeleaf/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="598">
-                <caret line="26" column="127" selection-start-line="26" selection-start-column="127" selection-end-line="26" selection-end-column="127" />
+              <first_editor relative-caret-position="782">
+                <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               </first_editor>
               <second_editor />
             </state>
@@ -68,7 +52,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/Thymeleaf/CSSExample/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/spring/Thymeleaf/TableExample/pom.xml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -109,7 +93,7 @@
         <entry file="file://$PROJECT_DIR$/src/spring/SpringBoot/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="920">
+              <first_editor relative-caret-position="3289">
                 <caret line="143" column="3" selection-start-line="143" selection-start-column="3" selection-end-line="143" selection-end-column="3" />
               </first_editor>
               <second_editor />
@@ -146,7 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/spring/Hibernate/LazyLoading/README.md" />
         <option value="$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/Course.java" />
         <option value="$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/Review.java" />
         <option value="$PROJECT_DIR$/src/spring/Hibernate/OneToManyUni/README.md" />
@@ -196,6 +179,7 @@
         <option value="$PROJECT_DIR$/src/spring/SpringBoot/README.md" />
         <option value="$PROJECT_DIR$/src/spring/Thymeleaf/demo/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/spring/Thymeleaf/TableExample/src/main/java/com/example/demo/models/Employee.java" />
         <option value="$PROJECT_DIR$/src/spring/Thymeleaf/README.md" />
       </list>
     </option>
@@ -220,7 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -284,12 +267,13 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557766377528" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557848195361" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -299,24 +283,24 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Shared\Spring-Hibernate\src\spring\Thymeleaf\CSSExample" />
-      <recent name="D:\Shared\Spring-Hibernate\src\spring\Thymeleaf\FirstSetup" />
-      <recent name="D:\Shared\Spring-Hibernate\src\spring\Thymeleaf" />
-      <recent name="D:\Shared\Spring-Hibernate\src\spring\SpringBoot\FirstSetup\demo" />
-      <recent name="D:\Shared\Spring-Hibernate\src\spring\SpringBoot" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="spring.REST.CustomException.error" />
-      <recent name="spring.Hibernate.ManyToMany" />
-      <recent name="spring.Hibernate.LazyLoading" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Shared\Spring-Hibernate\lib" />
       <recent name="D:\Shared\Spring-Hibernate\src" />
       <recent name="D:\Shared\Spring-Hibernate\out\production\Spring-Hibernate" />
       <recent name="D:\Shared\Spring-Hibernate" />
       <recent name="D:\Shared\Spring-Hibernate\src\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="spring.REST.CustomException.error" />
+      <recent name="spring.Hibernate.ManyToMany" />
+      <recent name="spring.Hibernate.LazyLoading" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Shared\Spring-Hibernate\src\spring\Thymeleaf\TableExample" />
+      <recent name="D:\Shared\Spring-Hibernate\src\spring\Thymeleaf\CSSExample" />
+      <recent name="D:\Shared\Spring-Hibernate\src\spring\Thymeleaf\FirstSetup" />
+      <recent name="D:\Shared\Spring-Hibernate\src\spring\Thymeleaf" />
+      <recent name="D:\Shared\Spring-Hibernate\src\spring\SpringBoot\FirstSetup\demo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -545,18 +529,19 @@
       <workItem from="1557255782148" duration="1740000" />
       <workItem from="1557494778721" duration="1574000" />
       <workItem from="1557674497522" duration="1626000" />
-      <workItem from="1557763540473" duration="2344000" />
+      <workItem from="1557763540473" duration="2462000" />
+      <workItem from="1557846155018" duration="848000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132184000" />
+    <option name="totallyTimeSpent" value="133150000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49950835" visible="true" weight="0.22867803" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49950835" visible="true" weight="0.23134328" />
       <window_info id="Structure" order="1" sideWeight="0.5004916" side_tool="true" weight="0.18123667" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" side_tool="true" />
@@ -600,23 +585,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/spring/REST/SimplePojoJsonRestSetup/rest/DemoRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/REST/CustomException/error/StudentErrorResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/REST/CustomException/model/Student.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -879,20 +847,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/REST/AuthorisationREST/config/MySpringMvcDispatcherServletInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="837">
+            <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/SpringBoot/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="920">
-            <caret line="143" column="3" selection-start-line="143" selection-start-column="3" selection-end-line="143" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/spring/Thymeleaf/CSSExample/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/Thymeleaf/FirstSetup/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/Thymeleaf/FirstSetup/src/main/java/com/example/demo/controller/DemoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="25" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -909,34 +883,34 @@
     <entry file="file://$PROJECT_DIR$/src/spring/Thymeleaf/FirstSetup/src/main/resources/templates/helloworld.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/spring/SpringBoot/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="837">
-            <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+          <first_editor relative-caret-position="3289">
+            <caret line="143" column="3" selection-start-line="143" selection-start-column="3" selection-end-line="143" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/Thymeleaf/FirstSetup/src/main/java/com/example/demo/controller/DemoController.java">
+    <entry file="file://$PROJECT_DIR$/src/spring/REST/AuthorisationREST/config/MySpringMvcDispatcherServletInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="25" selection-end-column="35" />
+        <state relative-caret-position="92">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/Thymeleaf/FirstSetup/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/spring/Thymeleaf/TableExample/src/main/java/com/example/demo/models/Employee.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/Thymeleaf/CSSExample/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/spring/Thymeleaf/TableExample/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/Thymeleaf/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="598">
-            <caret line="26" column="127" selection-start-line="26" selection-start-column="127" selection-end-line="26" selection-end-column="127" />
+          <first_editor relative-caret-position="782">
+            <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           </first_editor>
           <second_editor />
         </state>

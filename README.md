@@ -79,3 +79,4 @@ This is a repository where I go through all the basics of the Java frameworks Sp
 73. [Spring Boot Configure Server](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/SpringBoot)
 74. [Thymeleaf Spring Boot](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Thymeleaf)
 75. [Thymeleaf CSS Spring Boot](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Thymeleaf)
+76. [Thymeleaf Table Spring Boot](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Thymeleaf)
