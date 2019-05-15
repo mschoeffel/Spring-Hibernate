@@ -23,3 +23,18 @@ Spring Security | As authorisation and role framework.
 
 You can simply download teh `FinalCRUD` directory and import as Maven Project to run it by your own.\
 **Care:** Modify the `application.properties`. So that the database connection fits to your database.
+
+
+Database script:
+```sql
+create database if not exists  demodb
+create table employee
+(
+  id int auto_increment primary key,
+  first_name varchar(64) null,
+  last_name varchar(64) null,
+  email varchar(128) null
+);
+
+INSERT INTO demodb.employee (id, first_name, last_name, email) VALUES (1, 'John', 'Doe', 'Johns@Testmail.com');
+```
