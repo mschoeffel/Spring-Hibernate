@@ -3,7 +3,7 @@
 ---
 
 This is a repository where I go through all the basics of the Java frameworks Spring and Hibernate:\
-Ath the end there is a final project that includes nearly all the basics of Spring and Hibernate.
+At the end there is a final project that includes nearly all the basics of Spring and Hibernate.
 
 1. [Inversion of Control](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/InversionOfControl)
 2. [Dependency Injection Constructor](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/DependencyInjectionConstructor)
@@ -83,4 +83,4 @@ Ath the end there is a final project that includes nearly all the basics of Spri
 76. [Thymeleaf Table Spring Boot](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Thymeleaf)
 ----
 Final CRUD, REST, Spring Boot, MVC, Hibernate, Thymeleaf and Spring Security Project: 
-[Final Project](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Thymeleaf)
+[Final Project](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/FinalCRUD)
