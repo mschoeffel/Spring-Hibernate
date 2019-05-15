@@ -8,11 +8,11 @@
 		<version>2.1.1.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.luv2code.springboot</groupId>
-	<artifactId>37-thymeleafdemo-employees-delete</artifactId>
+	<groupId>com.demo</groupId>
+	<artifactId>FinalCRUD</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>thymeleafdemo</name>
-	<description>Demo project for Spring Boot</description>
+	<name>FinalCRUD</name>
+	<description>Final Project CRUD</description>
 
 	<properties>
 		<java.version>1.8</java.version>
