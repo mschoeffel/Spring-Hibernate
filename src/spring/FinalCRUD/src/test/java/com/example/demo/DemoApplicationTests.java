@@ -1,4 +1,4 @@
-package spring.FinalCRUD.src.test.java.com.demo;
+package spring.FinalCRUD.src.test.java.com.example.demo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,11 +7,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class ThymeleafdemoApplicationTests {
+public class DemoApplicationTests {
 
 	@Test
 	public void contextLoads() {
 	}
 
 }
-

@@ -1,13 +1,14 @@
-package spring.FinalCRUD.src.main.java.com.demo.service;
+package spring.FinalCRUD.src.main.java.com.example.demo.service;
+
+import com.example.demo.dao.EmployeeRepository;
+import com.example.demo.exception.EmployeeNotFoundException;
+import com.example.demo.model.Employee;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
-import com.demo.dao.EmployeeRepository;
-import com.demo.model.Employee;
 
 @Service
 public class EmployeeServiceImpl implements EmployeeService {
@@ -35,15 +36,15 @@ public class EmployeeServiceImpl implements EmployeeService {
 		}
 		else {
 			// we didn't find the employee
-			throw new RuntimeException("Did not find employee id - " + theId);
+			throw new EmployeeNotFoundException("Did not find employee id - " + theId);
 		}
 		
 		return theEmployee;
 	}
 
 	@Override
-	public void save(Employee theEmployee) {
-		employeeRepository.save(theEmployee);
+	public Employee save(Employee theEmployee) {
+		return employeeRepository.save(theEmployee);
 	}
 
 	@Override

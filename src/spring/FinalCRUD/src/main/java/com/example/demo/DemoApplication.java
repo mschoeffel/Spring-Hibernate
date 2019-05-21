@@ -1,14 +1,13 @@
-package spring.FinalCRUD.src.main.java.com.demo;
+package spring.FinalCRUD.src.main.java.com.example.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ThymeleafdemoApplication {
+public class DemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ThymeleafdemoApplication.class, args);
+		SpringApplication.run(DemoApplication.class, args);
 	}
 
 }
-

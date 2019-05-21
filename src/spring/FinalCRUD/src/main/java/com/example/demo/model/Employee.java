@@ -1,11 +1,6 @@
-package spring.FinalCRUD.src.main.java.com.demo.model;
+package spring.FinalCRUD.src.main.java.com.example.demo.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name="employee")

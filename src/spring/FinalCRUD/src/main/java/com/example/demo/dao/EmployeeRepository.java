@@ -1,10 +1,9 @@
-package spring.FinalCRUD.src.main.java.com.demo.dao;
+package com.example.demo.dao;
 
-import java.util.List;
-
+import com.example.demo.model.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.demo.model.Employee;
+import java.util.List;
 
 public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
 
