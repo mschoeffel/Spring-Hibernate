@@ -53,5 +53,9 @@ public class EmployeeController {
         return ResponseEntity.noContent().build();
     }
 
+    @GetMapping("/accessDenied")
+    public void accessDenied() {
+        throw new RuntimeException("Access denied");
+    }
 
 }
