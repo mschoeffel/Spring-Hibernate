@@ -33,6 +33,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/api/**").hasRole("APIACCESS")
                 .and()
                 .csrf().disable()
-                .formLogin().disable().exceptionHandling().accessDeniedPage("/accessDenied");
+                .formLogin().loginPage("/web/login.html").failureForwardUrl("/web/login-error.html").defaultSuccessUrl("/web/index.html")
+                .and().logout().logoutSuccessUrl("/web/logout.html")
+                .and().exceptionHandling().accessDeniedPage("/accessDenied");
     }
 }
