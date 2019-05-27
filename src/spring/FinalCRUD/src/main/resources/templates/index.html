@@ -13,6 +13,15 @@
 
 </head>
 <body>
+
+    <div th:if="${message}" class="alert alert-success" role="alert">
+        <p th:text="${message}"></p>
+    </div>
+
+    <div th:if="${error}" class="alert alert-danger" role="alert">
+        <p th:text="${error}"></p>
+    </div>
+
     <table class="table table-striped">
         <thead>
             <tr>
@@ -20,6 +29,8 @@
                 <th scope="col">First Name</th>
                 <th scope="col">Last Name</th>
                 <th scope="col">E-Mail</th>
+                <th scope="col">Update</th>
+                <th scope="col">Delete</th>
             </tr>
         </thead>
         <tbody>
@@ -28,6 +39,8 @@
                 <td th:text="${employee.firstName}"></td>
                 <td th:text="${employee.lastName}"></td>
                 <td th:text="${employee.email}"></td>
+                <td><a href="#" th:href="@{/web/update/} + ${employee.id}">Delete</a></td>
+                <td><a href="#" th:method="DELETE" th:href="@{/web/delete/} + ${employee.id}">Delete</a></td>
             </tr>
         </tbody>
     </table>

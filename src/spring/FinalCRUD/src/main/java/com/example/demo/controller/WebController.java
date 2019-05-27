@@ -6,6 +6,7 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
@@ -33,6 +34,18 @@ public class WebController {
     public String showHome(Model model){
         model.addAttribute("employees", employeeService.findAll());
         return "index.html";
+    }
+
+    @GetMapping("/delete/{id}")
+    public String deleteEmployee(Model model, @PathVariable int id){
+        try {
+            employeeService.deleteById(id);
+            model.addAttribute("message", "Delete Successful");
+        } catch(RuntimeException e){
+            model.addAttribute("error", e.getLocalizedMessage());
+        }
+
+        return "redirect:/web/index.html";
     }
 
 }
