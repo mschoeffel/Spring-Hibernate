@@ -6,29 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c92a05df-67e8-4299-8b32-b3894a075115" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/resources/static/bootstrap-4.3.1-dist/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/resources/static/bootstrap-4.3.1-dist/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/resources/static/bootstrap-4.3.1-dist/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/resources/static/bootstrap-4.3.1-dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/resources/static/bootstrap-4.3.1-dist/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/resources/static/bootstrap-4.3.1-dist/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/resources/static/bootstrap-4.3.1-dist/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/resources/static/bootstrap-4.3.1-dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/resources/static/bootstrap-4.3.1-dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/resources/static/bootstrap-4.3.1-dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/resources/static/bootstrap-4.3.1-dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/resources/static/bootstrap-4.3.1-dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/resources/static/bootstrap-4.3.1-dist/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/resources/static/bootstrap-4.3.1-dist/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/resources/static/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/resources/static/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/resources/static/bootstrap-4.3.1-dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/resources/static/bootstrap-4.3.1-dist/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/resources/static/bootstrap-4.3.1-dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/resources/static/bootstrap-4.3.1-dist/js/bootstrap.min.js.map" beforeDir="false" />
-    </list>
+    <list default="true" id="c92a05df-67e8-4299-8b32-b3894a075115" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/spring/FinalCRUD/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1127">
-              <caret line="49" column="57" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
+            <state relative-caret-position="255">
+              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -67,15 +45,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
               <caret line="4" selection-start-line="4" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/dao/EmployeeRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -106,9 +75,18 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/spring/Thymeleaf/FirstSetup/src/main/resources/templates/helloworld.html">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/dao/EmployeeRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -201,8 +179,8 @@
         <option value="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/demo/dao/EmployeeRepository.java" />
         <option value="$PROJECT_DIR$/src/spring/FinalCRUD/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/spring/FinalCRUD/pom.xml" />
         <option value="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/dao/EmployeeRepository.java" />
+        <option value="$PROJECT_DIR$/src/spring/FinalCRUD/pom.xml" />
       </list>
     </option>
   </component>
@@ -334,27 +312,6 @@
               <item name="Spring-Hibernate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="FinalCRUD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="FinalCRUD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
               <item name="Security" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -469,24 +426,24 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Shared\Spring-Hibernate\src\spring\FinalCRUD" />
-      <recent name="D:\Shared\Spring-Hibernate\src\spring\Thymeleaf\TableExample" />
-      <recent name="D:\Shared\Spring-Hibernate\src\spring\Thymeleaf\CSSExample" />
-      <recent name="D:\Shared\Spring-Hibernate\src\spring\Thymeleaf\FirstSetup" />
-      <recent name="D:\Shared\Spring-Hibernate\src\spring\Thymeleaf" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="spring.REST.CustomException.error" />
-      <recent name="spring.Hibernate.ManyToMany" />
-      <recent name="spring.Hibernate.LazyLoading" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Shared\Spring-Hibernate\lib" />
       <recent name="D:\Shared\Spring-Hibernate\src" />
       <recent name="D:\Shared\Spring-Hibernate\out\production\Spring-Hibernate" />
       <recent name="D:\Shared\Spring-Hibernate" />
       <recent name="D:\Shared\Spring-Hibernate\src\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="spring.REST.CustomException.error" />
+      <recent name="spring.Hibernate.ManyToMany" />
+      <recent name="spring.Hibernate.LazyLoading" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Shared\Spring-Hibernate\src\spring\FinalCRUD" />
+      <recent name="D:\Shared\Spring-Hibernate\src\spring\Thymeleaf\TableExample" />
+      <recent name="D:\Shared\Spring-Hibernate\src\spring\Thymeleaf\CSSExample" />
+      <recent name="D:\Shared\Spring-Hibernate\src\spring\Thymeleaf\FirstSetup" />
+      <recent name="D:\Shared\Spring-Hibernate\src\spring\Thymeleaf" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -721,12 +678,12 @@
       <workItem from="1558450721432" duration="1807000" />
       <workItem from="1558545005986" duration="1286000" />
       <workItem from="1558546797853" duration="80000" />
-      <workItem from="1558623833051" duration="624000" />
+      <workItem from="1558623833051" duration="1239000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139300000" />
+    <option name="totallyTimeSpent" value="139915000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -1051,13 +1008,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/FinalCRUD/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1127">
-          <caret line="49" column="57" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/Security/config/DemoSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1081">
@@ -1112,6 +1062,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/Thymeleaf/FirstSetup/src/main/resources/templates/helloworld.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/dao/EmployeeRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -1119,8 +1072,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/Thymeleaf/FirstSetup/src/main/resources/templates/helloworld.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/spring/FinalCRUD/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
