@@ -64,9 +64,10 @@
 
 </head>
 <body class="text-center">
-<form class="form-signin" th:action="@{/web/login.html}" method="POST">
+<form class="form-signin" th:action="@{/login.html}" method="POST">
     <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
     <p th:if="${loginError}" class="error">Wrong user or password</p>
+    <p th:if="${accessError}" class="error">Not enough Roles</p>
     <label for="username" class="sr-only">Username</label>
     <input type="text" id="username" name="username" class="form-control" placeholder="Username" required autofocus>
     <label for="password" class="sr-only">Password</label>

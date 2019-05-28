@@ -12,18 +12,15 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </head>
-<body>
+<body class="container">
 
-    <div th:if="${message}" class="alert alert-success" role="alert">
-        <p th:text="${message}"></p>
-    </div>
+    <h3>Employees</h3>
 
-    <div th:if="${error}" class="alert alert-danger" role="alert">
-        <p th:text="${error}"></p>
-    </div>
+    <a href="#" th:href="@{/web/show}" class="btn btn-primary btn-sm mb-3">Create</a>
+    <a href="#" th:href="@{/logout.html}" class="btn btn-primary btn-sm mb-3">Logout</a>
 
     <table class="table table-striped">
-        <thead>
+        <thead class="thead-dark">
             <tr>
                 <th scope="col">Id</th>
                 <th scope="col">First Name</th>
@@ -39,10 +36,12 @@
                 <td th:text="${employee.firstName}"></td>
                 <td th:text="${employee.lastName}"></td>
                 <td th:text="${employee.email}"></td>
-                <td><a href="#" th:href="@{/web/update/} + ${employee.id}">Delete</a></td>
-                <td><a href="#" th:method="DELETE" th:href="@{/web/delete/} + ${employee.id}">Delete</a></td>
+                <td><a href="#" th:href="@{/web/show/} + ${employee.id}" class="btn btn-warning btn-sm">Update</a></td>
+                <td><a href="#" th:href="@{/web/delete/} + ${employee.id}" class="btn btn-danger btn-sm">Delete</a></td>
             </tr>
         </tbody>
     </table>
+
+
 </body>
 </html>

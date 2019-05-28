@@ -31,10 +31,11 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .authorizeRequests()
                 .antMatchers("/api/**").hasRole("APIACCESS")
+                .antMatchers("/web/**").hasRole("WEBACCESS")
                 .and()
                 .csrf().disable()
-                .formLogin().loginPage("/web/login.html").failureForwardUrl("/web/login-error.html").defaultSuccessUrl("/web/index.html")
-                .and().logout().logoutSuccessUrl("/web/logout.html")
-                .and().exceptionHandling().accessDeniedPage("/accessDenied");
+                .formLogin().loginPage("/login.html").failureUrl("/login-error.html").defaultSuccessUrl("/web/index.html")
+                .and().logout().logoutUrl("/logout.html")
+                .and().exceptionHandling().accessDeniedPage("/accessDenied.html");
     }
 }
