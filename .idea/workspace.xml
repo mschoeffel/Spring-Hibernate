@@ -7,22 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c92a05df-67e8-4299-8b32-b3894a075115" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/config/MySpringMvcDispatcherServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/config/MySpringMvcDispatcherServletInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/config/SecurityWebApplicationInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/config/SecurityWebApplicationInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/controller/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/controller/WebController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/dao/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/dao/EmployeeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/exception/EmployeeErrorExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/exception/EmployeeErrorExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/exception/EmployeeErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/exception/EmployeeErrorResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/exception/EmployeeNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/exception/EmployeeNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/model/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/service/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/service/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/service/EmployeeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/FinalCRUD/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,19 +23,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/FinalCRUD/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/dao/EmployeeRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            <state relative-caret-position="253">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/dao/EmployeeRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="837">
+                <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -195,9 +184,9 @@
         <option value="$PROJECT_DIR$/src/spring/Thymeleaf/README.md" />
         <option value="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/demo/dao/EmployeeRepository.java" />
         <option value="$PROJECT_DIR$/src/spring/FinalCRUD/README.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/spring/FinalCRUD/pom.xml" />
         <option value="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/dao/EmployeeRepository.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -231,173 +220,6 @@
             <path>
               <item name="Spring-Hibernate" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spring-Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="FinalCRUD" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="FinalCRUD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="FinalCRUD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="FinalCRUD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="FinalCRUD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="FinalCRUD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="FinalCRUD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="FinalCRUD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="Security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="Security" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="Thymeleaf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="Thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="FirstSetup" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="Thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="FirstSetup" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="Thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="FirstSetup" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="Thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="FirstSetup" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="Thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="FirstSetup" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Hibernate" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -425,8 +247,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -442,24 +264,24 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Shared\Spring-Hibernate\src\spring\FinalCRUD" />
-      <recent name="D:\Shared\Spring-Hibernate\src\spring\Thymeleaf\TableExample" />
-      <recent name="D:\Shared\Spring-Hibernate\src\spring\Thymeleaf\CSSExample" />
-      <recent name="D:\Shared\Spring-Hibernate\src\spring\Thymeleaf\FirstSetup" />
-      <recent name="D:\Shared\Spring-Hibernate\src\spring\Thymeleaf" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="spring.REST.CustomException.error" />
-      <recent name="spring.Hibernate.ManyToMany" />
-      <recent name="spring.Hibernate.LazyLoading" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Shared\Spring-Hibernate\lib" />
       <recent name="D:\Shared\Spring-Hibernate\src" />
       <recent name="D:\Shared\Spring-Hibernate\out\production\Spring-Hibernate" />
       <recent name="D:\Shared\Spring-Hibernate" />
       <recent name="D:\Shared\Spring-Hibernate\src\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="spring.REST.CustomException.error" />
+      <recent name="spring.Hibernate.ManyToMany" />
+      <recent name="spring.Hibernate.LazyLoading" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Shared\Spring-Hibernate\src\spring\FinalCRUD" />
+      <recent name="D:\Shared\Spring-Hibernate\src\spring\Thymeleaf\TableExample" />
+      <recent name="D:\Shared\Spring-Hibernate\src\spring\Thymeleaf\CSSExample" />
+      <recent name="D:\Shared\Spring-Hibernate\src\spring\Thymeleaf\FirstSetup" />
+      <recent name="D:\Shared\Spring-Hibernate\src\spring\Thymeleaf" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -696,16 +518,19 @@
       <workItem from="1558546797853" duration="80000" />
       <workItem from="1558623833051" duration="1239000" />
       <workItem from="1558974990402" duration="919000" />
+      <workItem from="1559061638906" duration="88000" />
+      <workItem from="1562009378256" duration="309000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140834000" />
+    <option name="totallyTimeSpent" value="141231000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49950835" visible="true" weight="0.20469083" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49950835" visible="true" weight="0.20895523" />
       <window_info id="Structure" order="1" sideWeight="0.5004916" side_tool="true" weight="0.18123667" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" side_tool="true" />
@@ -1004,16 +829,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/demo/dao/EmployeeRepository.java" />
     <entry file="file://$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/demo/ThymeleafdemoApplication.java" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1955">
-            <caret line="85" column="96" selection-start-line="85" selection-start-column="96" selection-end-line="85" selection-end-column="96" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/Thymeleaf/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1021,6 +836,13 @@
             <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/FinalCRUD/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1081,17 +903,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/FinalCRUD/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/dao/EmployeeRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        <state relative-caret-position="253">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/dao/EmployeeRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="837">
+            <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
