@@ -91,6 +91,10 @@ At the end there is a final project that includes nearly all the basics of Sprin
 2. (75.) [Thymeleaf CSS Spring Boot](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Thymeleaf)
 3. (76.) [Thymeleaf Table Spring Boot](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Thymeleaf)
 ----
-#### Final Project
-Final CRUD, REST, Spring Boot, MVC, Hibernate, Thymeleaf and Spring Security Project:\
-[Final Project](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/FinalCRUD)
+#### Open  (TODO)
+* Spring Aspect Oriented Programming with Annotations
+* Project: Spring Real Time Chat with WebSockets
+
+#### Final Projects
+Final CRUD: (REST, Spring Boot, MVC, Hibernate, Thymeleaf and Spring Security Project)\
+* [Final Project](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/FinalCRUD)
