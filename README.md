@@ -14,7 +14,7 @@ At the end there is a final project that includes nearly all the basics of Sprin
 #### Beans
 1. (6.) [Bean Scopes](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/BeanScopes)
 2. (7.) [Bean Hooks / Bean Lifecycle](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/BeanHooks)
-####Annotations
+#### Annotations
 1. (8.) [Annotation Explicit Inversion of Control](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/AnnotationExplicitIoC)
 2. (9.) [Annotation Default Inversion of Control](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/AnnotationDefaultIoC)
 3. (10.) [Annotation Constructor Dependency Injection](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/AnnotationConstructorDI)
