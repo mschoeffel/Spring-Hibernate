@@ -3,11 +3,16 @@
 
 This is a repository where I go through all the basics of the Java frameworks Spring and Hibernate:
 
-**NOTE:** At the end there are multiple more professional projects that contain multiple Spring, Hibernate and Thymeleaf Frameworks.
+## **Final Projects**
 
-For example a **Spring Boot, Security, MVC, REST, Hibernate & Thymeleaf CRUD Project**\
-or a **Spring WebSocket Real Time Chat**
 
+Link | Description | Frameworks
+----|----|----
+[CRUD](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/FinalCRUD) | **CRUD Project** | Spring Boot, Spring Security, Spring REST, Spring MVC, Hibernate, Thymeleaf, HTML5, CSS3
+[WebSocket RTC](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/FinalWebSocketRTC) | **WebSocket Real Time Chat** | Spring Boot, Spring WebSockets, JS, HTML5, CSS3
+
+
+##Spring-Hibernate Piece by Piece
 #### Inversion of Control
 1. (1.) [Inversion of Control](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/InversionOfControl)
 #### Dependency Injection
@@ -97,11 +102,3 @@ or a **Spring WebSocket Real Time Chat**
 ----
 #### Open  (TODO)
 * Spring Aspect Oriented Programming with Annotations
-----
-#### **FINAL PROJECTS**
-
-Final CRUD: (REST, Spring Boot, MVC, Hibernate, Thymeleaf, HTML5, CSS3 and Spring Security Project)\
-* [Final Project](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/FinalCRUD)
-
-Final WebSocket Real Time Chat (Spring Boot, Spring Web Socket, JS, HTML5, CSS3)
-* [Final WebSocket RTC](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/FinalWebSocketRTC)
