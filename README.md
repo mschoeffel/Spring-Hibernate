@@ -3,7 +3,7 @@
 
 This is a repository where I go through all the basics of the Java frameworks Spring and Hibernate:
 
-## **Final Projects**
+## Final Projects
 
 
 Link | Description | Frameworks
@@ -12,7 +12,7 @@ Link | Description | Frameworks
 [WebSocket RTC](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/FinalWebSocketRTC) | **WebSocket Real Time Chat** | Spring Boot, Spring WebSockets, JS, HTML5, CSS3
 
 
-##Spring-Hibernate Piece by Piece
+## Spring-Hibernate Piece by Piece
 #### Inversion of Control
 1. (1.) [Inversion of Control](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/InversionOfControl)
 #### Dependency Injection
