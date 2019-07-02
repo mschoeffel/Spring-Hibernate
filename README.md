@@ -1,8 +1,12 @@
 # Spring-Hibernate
 
 
-This is a repository where I go through all the basics of the Java frameworks Spring and Hibernate:\
-At the end there is a final project that includes nearly all the basics of Spring and Hibernate.
+This is a repository where I go through all the basics of the Java frameworks Spring and Hibernate:
+
+**NOTE:** At the end there are multiple more professional projects that contain multiple Spring, Hibernate and Thymeleaf Frameworks.
+
+For example a **Spring Boot, Security, MVC, REST, Hibernate & Thymeleaf CRUD Project**\
+or a **Spring WebSocket Real Time Chat**
 
 #### Inversion of Control
 1. (1.) [Inversion of Control](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/InversionOfControl)
@@ -93,8 +97,11 @@ At the end there is a final project that includes nearly all the basics of Sprin
 ----
 #### Open  (TODO)
 * Spring Aspect Oriented Programming with Annotations
-* Project: Spring Real Time Chat with WebSockets
+----
+#### **FINAL PROJECTS**
 
-#### Final Projects
-Final CRUD: (REST, Spring Boot, MVC, Hibernate, Thymeleaf and Spring Security Project)\
+Final CRUD: (REST, Spring Boot, MVC, Hibernate, Thymeleaf, HTML5, CSS3 and Spring Security Project)\
 * [Final Project](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/FinalCRUD)
+
+Final WebSocket Real Time Chat (Spring Boot, Spring Web Socket, JS, HTML5, CSS3)
+* [Final WebSocket RTC](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/FinalWebSocketRTC)
