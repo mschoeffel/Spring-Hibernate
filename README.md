@@ -10,6 +10,9 @@ Link | Description | Frameworks
 ----|----|----
 [CRUD](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/FinalCRUD) | **CRUD Project** | Spring Boot, Spring Security, Spring REST, Spring MVC, Hibernate, Thymeleaf, HTML5, CSS3
 [WebSocket RTC](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/FinalWebSocketRTC) | **WebSocket Real Time Chat** | Spring Boot, Spring WebSockets, JS, HTML5, CSS3
+&nbsp; | &nbsp; | &nbsp;
+[Skript](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Scripts/Annotations.md) | **Annotation Script** | A Script with the commonly used Annotations described
+[Skript](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Scripts/QuestionsSpring.md) | **Questions Script** | 220+ Spring Questions & Answers
 
 
 ## Spring-Hibernate Piece by Piece
