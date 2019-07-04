@@ -245,9 +245,20 @@ NUMBER | QUESTION
 
 ## Spring
 ## <a name="q-1-1"></a> 1.1 What is Loose Coupling?
+In computing and systems design a loosely coupled system is one in which each of its components has, or makes use of, little or no knowledge of the definitions of other separate components. Subareas include the coupling of classes, interfaces, data, and services. Loose coupling is the opposite of tight coupling.
+
 ## <a name="q-1-2"></a> 1.2 What is a Dependency?
+A dependency is if an object, method or whole project needs another object or library to function.
+
 ## <a name="q-1-3"></a> 1.3 What is IOC (Inversion of Control)?
+In software engineering, inversion of control (IoC) is a programming principle. IoC inverts the flow of control as compared to traditional control flow. In IoC, custom-written portions of a computer program receive the flow of control from a generic framework. A software architecture with this design inverts control as compared to traditional procedural programming: in traditional programming, the custom code that expresses the purpose of the program calls into reusable libraries to take care of generic tasks, but with inversion of control, it is the framework that calls into the custom, or task-specific, code.
+
+Inversion of control is used to increase modularity of the program and make it extensible, and has applications in object-oriented programming and other programming paradigms.
+
 ## <a name="q-1-4"></a> 1.4 What is Dependency Injection?
+Dependency Injection is **a fundamental aspect of the Spring framework**, through which the Spring container "injects" objects into other objects or "dependencies".
+Simply put, this allows for loose coupling of components and moves the responsibility of managing components onto the container.
+
 ## <a name="q-1-5"></a> 1.5 Can you give few examples of Dependency Injection?
 ## <a name="q-1-6"></a> 1.6 What is Auto Wiring?
 ## <a name="q-1-7"></a> 1.7 What are the important roles of an IOC Container?
@@ -484,7 +495,15 @@ That's all for now about the frequently-asked Spring MVC interview questions. If
 ## <a name="q-3-8"></a> 3.8 How can we find more information about Auto Configuration?
 ## <a name="q-3-9"></a> 3.9 What is an embedded server? Why is it important?
 ## <a name="q-3-10"></a> 3.10 What is the default embedded server with Spring Boot?
+The default embedded webserver is a Apache Tomcat server.
+
 ## <a name="q-3-11"></a> 3.11 What are the other embedded servers supported by Spring Boot?
+Other supportet webserver are: 
+* Jetty
+* undertow
+
+Or you can use any other you want if you deploy via `war` file.
+
 ## <a name="q-3-12"></a> 3.12 What are Starter Projects?
 ## <a name="q-3-13"></a> 3.13 Can you give examples of important starter projects?
 ## <a name="q-3-14"></a> 3.14 What is Starter Parent?
@@ -512,6 +531,27 @@ As we know, Spring Boot provides lots of auto-configuration features that help d
 It provides a very easy way to access the few production-ready REST endpoints and fetch all kinds of information from the web. But by using these endpoints, you can do many things to see here the endpoint docs. There is no need to worry about security; if Spring Security is present, then these endpoints are secured by default using Spring Security’s content-negotiation strategy. Or else, we can configure custom security by the help of `RequestMatcher`.
 
 ## <a name="q-3-28"></a> 3.28 How do you monitor web services using Spring Boot Actuator?
+You simply call an endpoint via `URL` of your SpringBoot application plus endpoint.\
+Available endpoints are:
+* `/auditevents` – lists security audit-related events such as user login/logout. Also, we can filter by principal or type among others fields
+* `/beans` – returns all available beans in our BeanFactory. Unlike /auditevents, it doesn’t support filtering
+* `/conditions` – formerly known as /autoconfig, builds a report of conditions around auto-configuration
+* `/configprops` – allows us to fetch all @ConfigurationProperties beans
+* `/env` – returns the current environment properties. Additionally, we can retrieve single properties
+* `/flyway` – provides details about our Flyway database migrations
+* `/health` – summarises the health status of our application
+* `/heapdump` – builds and returns a heap dump from the JVM used by our application
+* `/info` – returns general information. It might be custom data, build information or details about the latest commit
+* `/liquibase` – behaves like /flyway but for Liquibase
+* `/logfile` – returns ordinary application logs
+* `/loggers` – enables us to query and modify the logging level of our application
+* `/metrics` – details metrics of our application. This might include generic metrics as well as custom ones
+* `/prometheus` – returns metrics like the previous one, but formatted to work with a Prometheus server
+* `/scheduledtasks` – provides details about every scheduled task within our application
+* `/sessions` – lists HTTP sessions given we are using Spring Session
+* `/shutdown` – performs a graceful shutdown of the application
+* `/threaddump` – dumps the thread information of the underlying JVM
+
 ## <a name="q-3-29"></a> 3.29 How do you find more information about your application envrionment using Spring Boot?
 ## <a name="q-3-30"></a> 3.30 What is a CommandLineRunner?
 ## <a name="q-3-31"></a> 3.31 What does the `@SpringBootApplication` annotation do internally?
@@ -595,6 +635,12 @@ The major strong point in Spring is to provide flexibility to build your applica
 ## Unit Testing
 ## <a name="q-6-1"></a> 6.1 How does Spring Framework Make Unit Testing Easy?
 ## <a name="q-6-2"></a> 6.2 What is Mockito?
+Mockito is a popular mock framework which can be used in conjunction with JUnit. Mockito allows you to create and configure mock objects. Using Mockito simplifies the development of tests for classes with external dependencies significantly.
+
+If you use Mockito in tests you typically:
+* Mock away external dependencies and insert the mocks into the code under test
+* Execute the code under test
+* Validate that the code executed correctly
 ## <a name="q-6-3"></a> 6.3 What is your favorite mocking framework?
 ## <a name="q-6-4"></a> 6.4 How do you do mock data with Mockito?
 ## <a name="q-6-5"></a> 6.5 What are the different mocking annotations that you worked with?
