@@ -12,7 +12,7 @@ Link | Description | Frameworks
 [WebSocket RTC](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/FinalWebSocketRTC) | **WebSocket Real Time Chat** | Spring Boot, Spring WebSockets, JS, HTML5, CSS3
 &nbsp; | &nbsp; | &nbsp;
 [Skript](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Scripts/Annotations.md) | **Annotation Script** | A Script with the most commonly used Annotations described & explained
-[Skript](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Scripts/QuestionsSpring.md) | **Questions Script** | Huge Script with 220+ Spring Questions & Answers
+[Skript](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Scripts/QuestionsSpring.md) | **Not yet finished Questions Script** | **!Under Construction!** Huge Script with 220+ Spring Questions & Answers
 
 
 ## Spring-Hibernate Piece by Piece

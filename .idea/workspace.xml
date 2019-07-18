@@ -26,7 +26,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="322">
-                <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+                <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
               </first_editor>
               <second_editor />
             </state>
@@ -37,8 +37,8 @@
         <entry file="file://$PROJECT_DIR$/src/spring/Scripts/QuestionsSpring.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="451">
-                <caret line="476" column="48" selection-start-line="476" selection-start-column="48" selection-end-line="476" selection-end-column="48" />
+              <first_editor relative-caret-position="600">
+                <caret line="261" column="78" selection-start-line="261" selection-start-column="78" selection-end-line="261" selection-end-column="78" />
               </first_editor>
               <second_editor />
             </state>
@@ -213,7 +213,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,6 +242,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -518,16 +518,20 @@
       <workItem from="1562094017333" duration="1255000" />
       <workItem from="1562167662464" duration="1671000" />
       <workItem from="1562178990417" duration="589000" />
+      <workItem from="1562257764389" duration="1254000" />
+      <workItem from="1562338209684" duration="603000" />
+      <workItem from="1563369621082" duration="336000" />
+      <workItem from="1563393675758" duration="15000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145787000" />
+    <option name="totallyTimeSpent" value="147995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49950835" visible="true" weight="0.21748401" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49950835" visible="true" weight="0.2260128" />
       <window_info id="Structure" order="1" sideWeight="0.5004916" side_tool="true" weight="0.18123667" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" side_tool="true" />
@@ -840,20 +844,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="322">
-            <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/Scripts/Annotations.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="322">
+            <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
@@ -918,8 +922,8 @@
     <entry file="file://$PROJECT_DIR$/src/spring/Scripts/QuestionsSpring.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="451">
-            <caret line="476" column="48" selection-start-line="476" selection-start-column="48" selection-end-line="476" selection-end-column="48" />
+          <first_editor relative-caret-position="600">
+            <caret line="261" column="78" selection-start-line="261" selection-start-column="78" selection-end-line="261" selection-end-column="78" />
           </first_editor>
           <second_editor />
         </state>
