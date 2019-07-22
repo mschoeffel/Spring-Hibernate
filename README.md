@@ -8,8 +8,9 @@ This is a repository where I go through all the basics of the Java frameworks Sp
 
 Link | Description | Frameworks
 ----|----|----
-[CRUD](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/FinalCRUD) | **CRUD Project** | Spring Boot, Spring Security, Spring REST, Spring MVC, Hibernate, Thymeleaf, HTML5, CSS3
-[WebSocket RTC](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/FinalWebSocketRTC) | **WebSocket Real Time Chat** | Spring Boot, Spring WebSockets, JS, HTML5, CSS3
+[CRUD](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/FinalCRUD) | **CRUD Project** | Spring Boot, Spring Web, Spring Security, Spring REST, Spring MVC, Hibernate, Thymeleaf, HTML5, CSS3
+[WebSocket RTC](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/FinalWebSocketRTC) | **WebSocket Real Time Chat** | Spring Boot, Spring Web, Spring WebSockets, JS, HTML5, CSS3
+[Stream Download](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/FinalStream) | **Spring Stream Zip and Download** | Spring Boot, Spring Web
 &nbsp; | &nbsp; | &nbsp;
 [Skript](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Scripts/Annotations.md) | **Annotation Script** | A Script with the most commonly used Annotations described & explained
 [Skript](https://github.com/mschoeffel/Spring-Hibernate/tree/master/src/spring/Scripts/QuestionsSpring.md) | **Not yet finished Questions Script** | **!Under Construction!** Huge Script with 220+ Spring Questions & Answers
