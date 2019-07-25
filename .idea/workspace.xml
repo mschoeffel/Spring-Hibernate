@@ -9,12 +9,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/spring/FinalStream/README.md" line="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c92a05df-67e8-4299-8b32-b3894a075115" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/spring/FinalStream/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring/FinalStream/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring/FinalCRUD/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring/FinalCRUD/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="c92a05df-67e8-4299-8b32-b3894a075115" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +22,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="253">
+                <caret line="11" column="162" selection-start-line="11" selection-start-column="162" selection-end-line="11" selection-end-column="162" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/spring/FinalCRUD/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/spring/FinalStream/src/main/java/com/example/demo/controller/DownloadController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="736">
@@ -106,18 +113,6 @@
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="322">
                 <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/SpringBoot/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="3289">
-                <caret line="143" column="3" selection-start-line="143" selection-start-column="3" selection-end-line="143" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -201,7 +196,6 @@
         <option value="$PROJECT_DIR$/src/spring/FinalCRUD/pom.xml" />
         <option value="$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/dao/EmployeeRepository.java" />
         <option value="$PROJECT_DIR$/src/spring/Scripts/QuestionsSpring.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/spring/FinalStream/pom.xml" />
         <option value="$PROJECT_DIR$/src/spring/FinalStream/src/main/java/com/example/demo/DownloadApplication.java" />
         <option value="$PROJECT_DIR$/src/spring/FinalStream/README.md" />
@@ -209,6 +203,7 @@
         <option value="$PROJECT_DIR$/src/spring/FinalStream/src/main/java/com/example/demo/DemoApplication.java" />
         <option value="$PROJECT_DIR$/src/spring/FinalStream/src/main/java/com/example/demo/AsyncConfiguration.java" />
         <option value="$PROJECT_DIR$/src/spring/FinalStream/src/main/java/com/example/demo/controller/DownloadController.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -415,7 +410,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563807437596" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563807538118" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -691,12 +686,12 @@
       <workItem from="1563393675758" duration="15000" />
       <workItem from="1563440542058" duration="2204000" />
       <workItem from="1563533152572" duration="30000" />
-      <workItem from="1563806746352" duration="688000" />
+      <workItem from="1563806746352" duration="897000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150917000" />
+    <option name="totallyTimeSpent" value="151126000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -955,16 +950,6 @@
     <entry file="file://$PROJECT_DIR$/src/spring/Thymeleaf/FirstSetup/src/main/resources/templates/helloworld.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="368">
-            <caret line="16" selection-start-line="16" selection-end-line="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/FinalCRUD/src/main/java/com/example/demo/controller/EmployeeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1037,13 +1022,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/FinalStream/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/FinalStream/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1096,6 +1074,23 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/FinalStream/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="253">
+            <caret line="11" column="162" selection-start-line="11" selection-start-column="162" selection-end-line="11" selection-end-column="162" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
